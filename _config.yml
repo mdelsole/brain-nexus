@@ -1,5 +1,6 @@
 # Site settings
 title: The Brain Nexus
+url: "https://mdelsole.github.io/brain-nexus"
 description: "A free resource for anything and everything about the human brain"
 baseurl: ""
 highlighter: rouge

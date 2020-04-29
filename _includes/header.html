@@ -146,14 +146,7 @@
             {% endif %}
           </ul>
         </li>
-        <li><a href="{{site.baseurl}}/{{ lg }}download/">Download</a></li>
 
-
-        <li><select id="myLanguage" onchange="myFunction()">
-          {% for l in site.languages %}
-            <option value="{{l}}" {% if page.language == {{l}} %} selected="1" {% endif %} >{{site.languages_names[forloop.index0]}}</option>	    
-          {% endfor %}
-	       </select></li>
        </ul>
       </div>
     </nav>

@@ -23,7 +23,7 @@ Then, you retrieve the colour of the pixel under the mouse cursor and convert th
 
 Here's an example :
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-picking-color/UniqueColors.png)
+![]({{site.baseurl}}/assets/images/tuto-picking-color/UniqueColors.png)
 
 
 In this screenshot, each monkey has a slightly different color, which make is possible to uniquely identify them.
@@ -150,7 +150,7 @@ glReadPixels(1024/2, 768/2,1,1, GL_RGBA, GL_UNSIGNED_BYTE, data);
 
 Your color is now in the 'data' array. Here, you can see that the ID is 19.
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-picking-color/DataArray.png)
+![]({{site.baseurl}}/assets/images/tuto-picking-color/DataArray.png)
 
 
 ## Convert the color back to an ID

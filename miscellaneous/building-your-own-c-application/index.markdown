@@ -60,7 +60,7 @@ Similarly, *#define*s are cut'n pasted, *#if*s are analysed and potentially remo
 
 At the end of this step we have a preprocessed C++ file, without any #define, #if, #ifdef, #include, ready to be compiled.
 
-As an example, here is the main.cpp file of the 6th tutorial, fully preprocessed in Visual : [tutorial06_preprocessed](mdelsole.github.io/brain-nexus/assets/images/build-own-app/tutorial06_preprocessed.txt). Warning, it's a huge file ! But it's worth knowing what a seemingly simple .cpp really looks to the compiler.
+As an example, here is the main.cpp file of the 6th tutorial, fully preprocessed in Visual : [tutorial06_preprocessed]({{site.baseurl}}/assets/images/build-own-app/tutorial06_preprocessed.txt). Warning, it's a huge file ! But it's worth knowing what a seemingly simple .cpp really looks to the compiler.
 
 ## Compilation
 
@@ -82,7 +82,7 @@ mov         dword ptr [j],ecx
 
 Each .cpp file is compiled separately, and the resulting binary code is written in .o/.obj files.
 
-![](mdelsole.github.io/brain-nexus/assets/images/build-own-app/compilation.png)
+![]({{site.baseurl}}/assets/images/build-own-app/compilation.png)
 
 
 Note that we don't have an executable yet : one remaining step is needed.
@@ -97,24 +97,24 @@ The linker takes all the binary code (yours, and the one from external libraries
 
 When the linker has run, you have an executable (.exe on Windows, .nothing_at_all on unix) :
 
-![](mdelsole.github.io/brain-nexus/assets/images/build-own-app/linking.png)
+![]({{site.baseurl}}/assets/images/build-own-app/linking.png)
 
 
 ## Runtime
 
 When you launch the executable, the OS will open the .exe, and put the x86 opcodes in memory. As said earlier, some code isn't available at this point : the code from dynamic libraries. But the linker was nice enough to say where to look for it : the .exe clearly says that the glClearColor function is implemented in OpenGL32.dll.
 
-![](mdelsole.github.io/brain-nexus/assets/images/build-own-app/dynamiclinking.png)
+![]({{site.baseurl}}/assets/images/build-own-app/dynamiclinking.png)
 
 
 Windows will happily open the .dll and find glClearColor :
 
-![](mdelsole.github.io/brain-nexus/assets/images/build-own-app/depends.png)
+![]({{site.baseurl}}/assets/images/build-own-app/depends.png)
 
 
 Sometimes a .dll can't be found, probably because you screwed the installation process, and the program just can't be run.
 
-![](mdelsole.github.io/brain-nexus/assets/images/build-own-app/dynamiclinking.png)
+![]({{site.baseurl}}/assets/images/build-own-app/dynamiclinking.png)
 
 
 # How do I do X with IDE Y ?
@@ -170,7 +170,7 @@ QtCreator is available for free at [http://qt-project.org/](http://qt-project.or
 
 Use a plain C or C++ project; avoid the templates filled with Qt stuff.
 
-![](mdelsole.github.io/brain-nexus/assets/images/build-own-app/QtCreator_newproject.png)
+![]({{site.baseurl}}/assets/images/build-own-app/QtCreator_newproject.png)
 
 
 Use default options.
@@ -199,7 +199,7 @@ Right clic on project -> Add library
 
 * If you're on Linux and you installed the library with apt-get or similar, chances are that the library registered itself in the system. You can select "System package" and enter the name of the library ( ex : *libglfw* or *glew* )
 
-![](mdelsole.github.io/brain-nexus/assets/images/build-own-app/QtCreator_linking.png)
+![]({{site.baseurl}}/assets/images/build-own-app/QtCreator_linking.png)
 
 
 * If not, use "System Library". Browse to where you compiled it.

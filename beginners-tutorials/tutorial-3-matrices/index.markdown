@@ -41,13 +41,13 @@ Homogeneous coordinates allow us to use a single mathematical formula to deal wi
 
 Simply put, a matrix is an array of numbers with a predefined number of rows and colums. For instance, a 2x3 matrix can look like this :
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-3-matrix/2X3.png)
+![]({{site.baseurl}}/assets/images/tuto-3-matrix/2X3.png)
 
 In 3D graphics we will mostly use 4x4 matrices. They will allow us to transform our (x,y,z,w) vertices. This is done by multiplying the vertex with the matrix :
 
 **Matrix x Vertex (in this order !!) = TransformedVertex**
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-3-matrix/MatrixXVect.gif)
+![]({{site.baseurl}}/assets/images/tuto-3-matrix/MatrixXVect.gif)
 
 This isn't as scary as it looks. Put your left finger on the a, and your right finger on the x. This is _ax_. Move your left finger to the next number (b), and your right finger to the next number (y). You've got _by_. Once again : _cz_. Once again : _dw_. ax + by + cz + dw. You've got your new x ! Do the same for each line, and you'll get your new (x,y,z,w) vector.
 
@@ -78,13 +78,13 @@ vec4 transformedVector = myMatrix * myVector; // Yeah, it's pretty much the same
 
 These are the most simple tranformation matrices to understand. A translation matrix look like this :
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-3-matrix/translationMatrix.png)
+![]({{site.baseurl}}/assets/images/tuto-3-matrix/translationMatrix.png)
 
 where X,Y,Z are the values that you want to add to your position.
 
 So if we want to translate the vector (10,10,10,1) of 10 units in the X direction, we get :
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-3-matrix/translationExamplePosition1.png)
+![]({{site.baseurl}}/assets/images/tuto-3-matrix/translationExamplePosition1.png)
 
 (do it ! doooooo it)
 
@@ -92,7 +92,7 @@ So if we want to translate the vector (10,10,10,1) of 10 units in the X directio
 
 Let's now see what happens to a vector that represents a direction towards the -z axis : (0,0,-1,0)
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-3-matrix/translationExampleDirection1.png)
+![]({{site.baseurl}}/assets/images/tuto-3-matrix/translationExampleDirection1.png)
 
 ... ie our original (0,0,-1,0) direction, which is great because as I said ealier, moving a direction does not make sense.
 
@@ -121,7 +121,7 @@ Well, in fact, you almost never do this in GLSL. Most of the time, you use glm::
 
 This one is special. It doesn't do anything. But I mention it because it's as important as knowing that multiplying A by 1.0 gives A.
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-3-matrix/identityExample.png)
+![]({{site.baseurl}}/assets/images/tuto-3-matrix/identityExample.png)
 
 **In C++ :**
 
@@ -133,11 +133,11 @@ glm::mat4 myIdentityMatrix = glm::mat4(1.0f);
 
 Scaling matrices are quite easy too :
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-3-matrix/scalingMatrix.png)
+![]({{site.baseurl}}/assets/images/tuto-3-matrix/scalingMatrix.png)
 
 So if you want to scale a vector (position or direction, it doesn't matter) by 2.0 in all directions :
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-3-matrix/scalingExample.png)
+![]({{site.baseurl}}/assets/images/tuto-3-matrix/scalingExample.png)
 
 and the w still didn't change. You may ask : what is the meaning of "scaling a direction" ? Well, often, not much, so you usually don't do such a thing, but in some (rare) cases it can be handy.
 
@@ -152,7 +152,7 @@ glm::mat4 myScalingMatrix = glm::scale(2.0f, 2.0f ,2.0f);
 
 ## Rotation matrices
 
-These are quite complicated. I'll skip the details here, as it's not important to know their exact layout for everyday use. For more information, please have a look to the [Matrices and Quaternions FAQ](mdelsole.github.io/brain-nexus/assets/faq_quaternions/index.html) (popular resource, probably available in your language as well). You can also have a look at the [Rotations tutorials](mdelsole.github.io/brain-nexus/intermediate-tutorials/tutorial-17-quaternions) 
+These are quite complicated. I'll skip the details here, as it's not important to know their exact layout for everyday use. For more information, please have a look to the [Matrices and Quaternions FAQ]({{site.baseurl}}/assets/faq_quaternions/index.html) (popular resource, probably available in your language as well). You can also have a look at the [Rotations tutorials]({{site.baseurl}}/intermediate-tutorials/tutorial-17-quaternions) 
 
 **In C++ :**
 
@@ -188,7 +188,7 @@ As a matter of fact, the order above is what you will usually need for game char
 	- You scale your ship by 2\. You get a big ship, centered on the origin.
 	- You translate your ship. It's still the same size, and at the right distance.
 
-Matrix-matrix multiplication is very similar to matrix-vector multiplication, so I'll once again skip some details and redirect you the the [Matrices and Quaternions FAQ](mdelsole.github.io/brain-nexus/assets/faq_quaternions/index.html#Q11) if needed. For now, we'll simply ask the computer to do it :
+Matrix-matrix multiplication is very similar to matrix-vector multiplication, so I'll once again skip some details and redirect you the the [Matrices and Quaternions FAQ]({{site.baseurl}}/assets/faq_quaternions/index.html#Q11) if needed. For now, we'll simply ask the computer to do it :
 
 **in C++, with GLM :**
 
@@ -215,19 +215,19 @@ The Model, View and Projection matrices are a handy tool to separate transformat
 
 This model, just as our beloved red triangle, is defined by a set of vertices. The X,Y,Z coordinates of these vertices are defined relative to the object's center : that is, if a vertex is at (0,0,0), it is at the center of the object.
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-3-matrix/model.png)
+![]({{site.baseurl}}/assets/images/tuto-3-matrix/model.png)
 
 We'd like to be able to move this model, maybe because the player controls it with the keyboard and the mouse. Easy, you just learnt do do so : `translation*rotation*scale`, and done. You apply this matrix to all your vertices at each frame (in GLSL, not in C++!) and everything moves. Something that doesn't move will be at the _center of the world_.
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-3-matrix/world.png)
+![]({{site.baseurl}}/assets/images/tuto-3-matrix/world.png)
 
 Your vertices are now in _World Space_. This is the meaning of the black arrow in the image below : _We went from Model Space (all vertices defined relatively to the center of the model) to World Space (all vertices defined relatively to the center of the world)._
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-3-matrix/model_to_world.png)
+![]({{site.baseurl}}/assets/images/tuto-3-matrix/model_to_world.png)
 
 We can sum this up with the following diagram :
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-3-matrix/M.png)
+![]({{site.baseurl}}/assets/images/tuto-3-matrix/M.png)
 
 ## The View matrix
 
@@ -235,7 +235,7 @@ Let's quote Futurama again :
 
 > _The engines don't move the ship at all. The ship stays where it is and the engines move the universe around it._
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-3-matrix/camera.png)
+![]({{site.baseurl}}/assets/images/tuto-3-matrix/camera.png)
 
 When you think about it, the same applies to cameras. It you want to view a moutain from another angle, you can either move the camera... or move the mountain. While not practical in real life, this is really simple and handy in Computer Graphics.
 
@@ -248,7 +248,7 @@ glm::mat4 ViewMatrix = glm::translate(glm::mat4(), glm::vec3(-3.0f, 0.0f ,0.0f))
 
 Again, the image below illustrates this : _We went from World Space (all vertices defined relatively to the center of the world, as we made so in the previous section) to Camera Space (all vertices defined relatively to the camera)._
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-3-matrix/model_to_world_to_camera.png)
+![]({{site.baseurl}}/assets/images/tuto-3-matrix/model_to_world_to_camera.png)
 
 Before you head explodes from this, enjoy GLM's great glm::lookAt function:
 
@@ -262,7 +262,7 @@ glm::mat4 CameraMatrix = glm::lookAt(
 
 Here's the compulsory diagram :
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-3-matrix/MV.png)
+![]({{site.baseurl}}/assets/images/tuto-3-matrix/MV.png)
 
 This is not over yet, though.
 
@@ -272,7 +272,7 @@ We're now in Camera Space. This means that after all theses transformations, a v
 
 This is called a perspective projection :
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-3-matrix/model_to_world_to_camera_to_homogeneous.png)
+![]({{site.baseurl}}/assets/images/tuto-3-matrix/model_to_world_to_camera_to_homogeneous.png)
 
 And luckily for us, a 4x4 matrix can represent this projection[^projection] :
 
@@ -292,25 +292,25 @@ _We went from Camera Space (all vertices defined relatively to the camera) to Ho
 
 And the final diagram :
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-3-matrix/MVP.png)
+![]({{site.baseurl}}/assets/images/tuto-3-matrix/MVP.png)
 
 Here's another diagram so that you understand better what happens with this Projection stuff. Before projection, we've got our blue objects, in Camera Space, and the red shape represents the frustum of the camera : the part of the scene that the camera is actually able to see.
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-3-matrix/nondeforme.png)
+![]({{site.baseurl}}/assets/images/tuto-3-matrix/nondeforme.png)
 
 Multiplying everything by the Projection Matrix has the following effect :
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-3-matrix/homogeneous.png)
+![]({{site.baseurl}}/assets/images/tuto-3-matrix/homogeneous.png)
 
 In this image, the frustum is now a perfect cube (between -1 and 1 on all axes, it's a little bit hard to see it), and all blue objects have been deformed in the same way. Thus, the objects that are near the camera ( = near the face of the cube that we can't see) are big, the others are smaller. Seems like real life !
 
 Let's see what it looks like from the "behind" the frustum :
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-3-matrix/projected1.png)
+![]({{site.baseurl}}/assets/images/tuto-3-matrix/projected1.png)
 
 Here you get your image ! It's just a little bit too square, so another mathematical transformation is applied (this one is automatic, you don't have to do it yourself in the shader) to fit this to the actual window size :
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-3-matrix/final1.png)
+![]({{site.baseurl}}/assets/images/tuto-3-matrix/final1.png)
 
 And this is the image that is actually rendered !
 
@@ -389,7 +389,7 @@ transformed_vertex = MVP * in_vertex;
 
 * Done ! Here is the same triangle as in tutorial 2, still at the origin (0,0,0), but viewed in perspective from point (4,3,3), heads up (0,1,0), with a 45° field of view.
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-3-matrix/perspective_red_triangle.png)
+![]({{site.baseurl}}/assets/images/tuto-3-matrix/perspective_red_triangle.png)
 
 In tutorial 6 you'll learn how to modify these values dynamically using the keyboard and the mouse to create a game-like camera, but first, we'll learn how to give our 3D models some colour (tutorial 4) and textures (tutorial 5).
 

@@ -42,7 +42,7 @@ dynamicsWorld->setGravity(btVector3(0,-9.81f,0));
 
 Each object must have a *Collision Shape*. While this collision shape can be the mesh itself, it's often a bad idea for performance. Instead, one usually use much simpler shapes as boxes, spheres or capsules. Here are a few collision shapes. From left to right : sphere, cube, convex hull of the mesh, original mesh. Spheres are less precise than the full mesh, but much much faster to test.
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-picking-physics-library/CollisionShapes.png)
+![]({{site.baseurl}}/assets/images/tuto-picking-physics-library/CollisionShapes.png)
 
 
 In this example, all meshes will use the same box :
@@ -112,7 +112,7 @@ glm::vec4 lRayEnd_NDC(
 
 To understand this code, let's have a look at this picture from Tutorial 4 again :
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-picking-physics-library/homogeneous.png)
+![]({{site.baseurl}}/assets/images/tuto-picking-physics-library/homogeneous.png)
 
 
 NDC is a 2*2*2 cube centered on the origin, so in this space, the ray going "trough the mouse" is just a straight line, perpendicular to the near plane! Which makes lRayStart_NDC and lEndStart_NDC so easy to compute.
@@ -193,7 +193,7 @@ Cons :
 
 All physics engines have a debug viewer. The example code shows how to to it with Bullet. You end up with a representation of what Bullet knows about your scene, which is incredibly useful to debug physics-related problem, especially to be sure that the "visual world" is consistent with the "physics world" :
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-picking-physics-library/BulletDebug.png)
+![]({{site.baseurl}}/assets/images/tuto-picking-physics-library/BulletDebug.png)
 
 
 The green box is the *Collision Shape*, at the same position and orientation than the mesh. The red box is the object's *Axis-Aligned Bounding Box* (AABB), which is used as a faster rejection test : if the ray doesn't intersect the AABB (very cheap to compute), then there is no chance that it will intersect the collision shape. Finally, you can see the object's axes in blue and red (look at the nose and ear). Handy !

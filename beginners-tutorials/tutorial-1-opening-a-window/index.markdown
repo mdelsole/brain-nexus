@@ -53,23 +53,23 @@ Detailed procedures will now be given for each platform. Adaptations may be requ
 * Download [CMake ](http://www.cmake.org/cmake/resources/software.html)from here and install it
 * [Download the source code](http://www.opengl-tutorial.org/download/) and unzip it, for instance in C:\Users\XYZ\Projects\OpenGLTutorials\ .
 * Launch CMake. In the first line, navigate to the unzipped folder. If unsure, choose the folder that contains the CMakeLists.txt file. In the second line, enter where you want all the compiler's stuff to live. For instance, you can choose C:\Users\XYZ\Projects\OpenGLTutorials-build-Visual2017-64bits\, or C:\Users\XYZ\Projects\OpenGLTutorials\build\Visual2017-32bits\. Notice that it can be anywhere, not necessarily in the same folder.
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-1-window/CMake.png)
+![]({{site.baseurl}}/assets/images/tuto-1-window/CMake.png)
 
 * Click on the Configure button. Since this is the first time you configure the project, CMake will ask you which compiler you would like to use. Choose wisely depending on step 1. If you have a 64 bit Windows, you can choose 64 bits; if you don't know, choose 32 bits.
 * Click on Configure until all red lines disappear. Click on Generate. Your Visual Studio project is now created. You can now forget about CMake.
 * Open C:\Users\XYZ\Projects\OpenGLTutorials-build-Visual2010-32bits\. You will see a Tutorials.sln file : open it with Visual Studio.
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-1-window/directories.png)
+![]({{site.baseurl}}/assets/images/tuto-1-window/directories.png)
 
 In the *Build* menu, click *Build All*. Every tutorial and dependency will be compiled. Each executable will also be copied back into C:\Users\XYZ\Projects\OpenGLTutorials\ . Hopefuly no error occurs.
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-1-window/visual_2010.png)
+![]({{site.baseurl}}/assets/images/tuto-1-window/visual_2010.png)
 
 * Open C:\Users\XYZ\Projects\OpenGLTutorials\playground, and launch playground.exe. A black window should appear.
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-1-window/empty_window.png)
+![]({{site.baseurl}}/assets/images/tuto-1-window/empty_window.png)
 
 
 You can also launch any tutorial from inside Visual Studio. Right-click on Playground once, "Choose as startup project". You can now debug the code by pressing F5.
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-1-window/StartupProject.png)
+![]({{site.baseurl}}/assets/images/tuto-1-window/StartupProject.png)
 
 
 
@@ -125,14 +125,14 @@ The procedure is very similar to Windows' (Makefiles are also supported, but won
 * Open ~/Projects/OpenGLTutorials_bin_XCode/ . You will see a Tutorials.xcodeproj file : open it.
 * Select the desired tutorial to run in Xcode's Scheme panel, and use the Run button to compile & run :
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-1-window/Xcode-projectselection.png)
+![]({{site.baseurl}}/assets/images/tuto-1-window/Xcode-projectselection.png)
 
 
 ## Note for Code::Blocks
 
 Due to 2 bugs (one in C::B, one in CMake), you have to edit the command-line in Project->Build Options->Make commands, as follows :
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-1-window/CodeBlocksFix.png)
+![]({{site.baseurl}}/assets/images/tuto-1-window/CodeBlocksFix.png)
 
 
 You also have to setup the working directory yourself : Project->Properties -> Build targets -> tutorial N -> execution working dir ( it's src_dir/tutorial_N/ ).

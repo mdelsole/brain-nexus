@@ -114,7 +114,7 @@ The bad news is that OpenGL can't be told to use one index for the position, ano
 
 Since our toy loader will be severely limited, we have to be extra careful to set the right options when exporting the file. Here's how it should look in Blender :
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-7-model-loading/Blender.png)
+![]({{site.baseurl}}/assets/images/tuto-7-model-loading/Blender.png)
 
 
 ## Reading the file
@@ -262,7 +262,7 @@ And that's it !
 
 Sorry for the lame texture, I'm NOT a good artist :( Any contribution welcome !
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-7-model-loading/ModelLoading.png)
+![]({{site.baseurl}}/assets/images/tuto-7-model-loading/ModelLoading.png)
 
 
 # Other formats/loaders

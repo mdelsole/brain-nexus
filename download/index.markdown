@@ -14,7 +14,7 @@ categories: []
 tags: []
 ---
 
-<span style="color: #ff0000;">[Tutorial 1](mdelsole.github.io/brain-nexus/beginners-tutorials/tutorial-1-opening-a-window/) explains how to build the source code. Please read it !</span>
+<span style="color: #ff0000;">[Tutorial 1]({{site.baseurl}}/beginners-tutorials/tutorial-1-opening-a-window/) explains how to build the source code. Please read it !</span>
 
 You can download the ZIP archive containing the whole set of tutorials here:
 

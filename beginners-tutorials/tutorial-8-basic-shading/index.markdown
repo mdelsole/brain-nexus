@@ -98,14 +98,14 @@ and this is enough to get us started.
 
 When light hits an object, an important fraction of it is reflected in all directions. This is the "diffuse component". (We'll see what happens with the other fraction soon)
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-8-basic-shading/diffuseWhite1.png)
+![]({{site.baseurl}}/assets/images/tuto-8-basic-shading/diffuseWhite1.png)
 
 
 When a certain flux of light arrives at the surface, this surface is illuminated differently according to the angle at which the light arrives.
 
 If the light is perpendicular to the surface, it is concentrated on a small surface. If it arrives at a gazing angle, the same quantity of light spreads on a greater surface :
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-8-basic-shading/diffuseAngle.png)
+![]({{site.baseurl}}/assets/images/tuto-8-basic-shading/diffuseAngle.png)
 
 
 This means that each point of the surface will look darker with gazing light (but remember, more points will be illuminated, so the total quantity of light will remain the same)
@@ -145,7 +145,7 @@ color = LightColor * cosTheta;
 
 Of course, the output colour also depends on the colour of the material. In this image, the white light is made out of green, red and blue light. When colliding with the red material, green and blue light is absorbed, and only the red remains.
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-8-basic-shading/diffuseRed.png)
+![]({{site.baseurl}}/assets/images/tuto-8-basic-shading/diffuseRed.png)
 
 
 We can model this by a simple multiplication :
@@ -226,7 +226,7 @@ You've got everything you need to code a diffuse lighting. Go ahead, and learn t
 
 With only the Diffuse component, we have the following result (sorry for the lame texture again) :
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-8-basic-shading/diffuse_only.png)
+![]({{site.baseurl}}/assets/images/tuto-8-basic-shading/diffuse_only.png)
 
 
 It's better than before, but there is still much missing. In particular, the back of Suzanne is completely black since we used clamp().
@@ -263,14 +263,14 @@ Let's see what it gives
 
 Ok so that's a little bit better. You can adjust the (0.1, 0.1, 0.1) if you want better results.
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-8-basic-shading/diffuse_ambiant.png)
+![]({{site.baseurl}}/assets/images/tuto-8-basic-shading/diffuse_ambiant.png)
 
 
 # The Specular component
 
 The other part of light that is reflected is reflected mostly in the direction that is the reflection of the light on the surface. This is the specular component.
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-8-basic-shading/specular.png)
+![]({{site.baseurl}}/assets/images/tuto-8-basic-shading/specular.png)
 
 
 As you can see in the image, it forms a kind of lobe. In extreme cases, the diffuse component can be null, the lobe can be very very very narrow (all the light is reflected in a single direction) and you get a mirror.
@@ -304,7 +304,7 @@ pow(cosAlpha,5) is used to control the width of the specular lobe. Increase 5 to
 
 ## Final result
 
-![](mdelsole.github.io/brain-nexus/assets/images/tuto-8-basic-shading/diffuse_ambiant_specular.png)
+![]({{site.baseurl}}/assets/images/tuto-8-basic-shading/diffuse_ambiant_specular.png)
 
 
 Notice the specular highlights on the nose and on the eyebrows.

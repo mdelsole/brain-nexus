@@ -10,9 +10,9 @@ tags: []
 ---
 This site is dedicated to **tutorials** for **OpenGL 3.3** and later !
 
-Full source code is available [here](mdelsole.github.io/brain-nexus/download).
+Full source code is available [here]({{ site.baseurl }}/download).
 
-Feel free to contact us for any question, remark, bug report, or other : <a href="mailto:contact@opengl-tutorial.org">contact@opengl-tutorial.org</a>, but don't forget to read the [FAQ](mdelsole.github.io/brain-nexus/miscellaneous/faq/) first !
+Feel free to contact us for any question, remark, bug report, or other : <a href="mailto:contact@opengl-tutorial.org">contact@opengl-tutorial.org</a>, but don't forget to read the [FAQ]({{ site.baseurl }}/miscellaneous/faq/) first !
 
 Contributions are welcome, especially for the [translations](mdelsole.github.io/brain-nexus/miscellaneous/contribute/translation/) !
 

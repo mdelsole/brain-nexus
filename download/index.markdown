@@ -28,7 +28,7 @@ Alternatively, you can directly checkout the Git repository :
 
 * [Checkout the source on GitHub](https://github.com/opengl-tutorials/ogl)
 
-If you have an issue building or running the code, <span style="color: #ff0000;">please read the [FAQ](mdelsole.github.io/brain-nexus/miscellaneous/faq/)</span>.
+If you have an issue building or running the code, <span style="color: #ff0000;">please read the [FAQ]({{ site.baseurl }}/miscellaneous/faq/)</span>.
 
 All the source code on this site (except third-party libraries) is released under the WTFPL Public Licence :
 ```

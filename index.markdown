@@ -16,7 +16,7 @@ Feel free to contact us for any question, remark, bug report, or other : <a href
 
 Contributions are welcome, especially for the [translations]({{site.baseurl}}/miscellaneous/contribute/translation/) !
 
-If you enjoy our work, please don't hesitate to spread the word !
+If you enjoy our work, please don't hesitate to spread the word!
 
 Follow us !
 

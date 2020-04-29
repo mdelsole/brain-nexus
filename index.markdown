@@ -17,7 +17,7 @@ Feel free to contact us for any question, remark, bug report, or other : <a href
 If you enjoy our work, please don't hesitate to spread the word !
 
 Follow us !
-
+ 
 <div class="home">
 
   <h1>News</h1>

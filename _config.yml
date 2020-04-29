@@ -1,7 +1,5 @@
 # Site settings
 title: opengl-tutorial
-email: contact@opengl-tutorial.org
-url: "http://www.opengl-tutorial.org"
 description: "Free tutorials for modern Opengl (3.3 and later) in C/C++"
 baseurl: ""
 highlighter: rouge

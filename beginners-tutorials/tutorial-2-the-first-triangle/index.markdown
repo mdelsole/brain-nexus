@@ -19,7 +19,7 @@ OpenGL 3 makes it easy to write complicated stuff, but at the expense that drawi
 
 Don't forget to cut'n paste the code on a regular basis.
 
-**<span style="color: red">If the program crashes at startup, you're probably running from the wrong directory. Read CAREFULLY the [first tutorial]({{ site.baseurl }}/beginners-tutorials/tutorial-1-opening-a-window/) and the [FAQ]({{ site.baseurl }}/miscellaneous/faq/) on how to configure Visual Studio !</span>**
+**<span style="color: red">If the program crashes at startup, you're probably running from the wrong directory. Read CAREFULLY the [first tutorial](mdelsole.github.io/brain-nexus/beginners-tutorials/tutorial-1-opening-a-window/) and the [FAQ](mdelsole.github.io/brain-nexus/miscellaneous/faq/) on how to configure Visual Studio !</span>**
 
 # The VAO
 
@@ -66,7 +66,7 @@ static const GLfloat g_vertex_buffer_data[] = {
 
 The first vertex is (-1,-1,0). This means that _unless we transform it in some way_, it will be displayed at (-1,-1) on the screen. What does this mean ? The screen origin is in the middle, X is on the right, as usual, and Y is up. This is what it gives on a wide screen :
 
-![screenCoordinates]({{site.baseurl}}/assets/images/tuto-2-first-triangle/screenCoordinates.png){: height="165px" width="300px"}
+![screenCoordinates](mdelsole.github.io/brain-nexus/assets/images/tuto-2-first-triangle/screenCoordinates.png){: height="165px" width="300px"}
 
 This is something you can't change, it's built in your graphics card. So (-1,-1) is the bottom left corner of your screen. (1,-1) is the bottom right, and (0,1) is the middle top. So this triangle should take most of the screen.
 
@@ -108,7 +108,7 @@ glDisableVertexAttribArray(0);
 
 If you're lucky, you can see the result in white. (<span style="color: red">**Don't panic if you don't**</span> some systems require a shader to show anything) :
 
-![triangle_no_shader]({{site.baseurl}}/assets/images/tuto-2-first-triangle/triangle_no_shader1.png){: height="232px" width="300px"}
+![triangle_no_shader](mdelsole.github.io/brain-nexus/assets/images/tuto-2-first-triangle/triangle_no_shader1.png){: height="232px" width="300px"}
 
 Now this is some boring white. Let's see how we can improve it by painting it in red. This is done by using something called shaders.
 
@@ -302,6 +302,6 @@ glUseProgram(programID);
 
 ... and presto, here's your red triangle !
 
-![red_triangle]({{site.baseurl}}/assets/images/tuto-2-first-triangle/red_triangle.png){: height="231px" width="300px"}
+![red_triangle](mdelsole.github.io/brain-nexus/assets/images/tuto-2-first-triangle/red_triangle.png){: height="231px" width="300px"}
 
 In the next tutorial we'll learn transformations : How to setup your camera, move your objects, etc.

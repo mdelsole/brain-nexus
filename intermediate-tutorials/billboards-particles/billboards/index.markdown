@@ -44,14 +44,14 @@ This one is usually better and not much more complicated.
 
 The goal is to keep the mesh aligned with the camera, even when the camera moves :
 
-![]({{site.baseurl}}/assets/images/tuto-billboard/2a.gif)
+![](mdelsole.github.io/brain-nexus/assets/images/tuto-billboard/2a.gif)
 
 
 You can view this problem as generating an appropriate Model matrix, even though it's is much simpler than that.
 
 The idea is that each corner of the billboard is at the center position, displaced by the camera's up and right vectors :
 
-![]({{site.baseurl}}/assets/images/tuto-billboard/principle.png)
+![](mdelsole.github.io/brain-nexus/assets/images/tuto-billboard/principle.png)
 
 Of course, we only know the billboard's center position in world space, so we also need the camera's up/right vectors in world space.
 
@@ -79,7 +79,7 @@ vec3 vertexPosition_worldspace =
 * BillboardSize is the size, in world units, of the billboard, sent as another uniform.
 
 <div><span style="font-size: medium;"><span style="line-height: 24px;">And presto, here's the result. Wasn't this easy ? </span></span><span style="font-size: 16px;"> </span></div>
-![]({{site.baseurl}}/assets/images/tuto-billboard/2.gif)
+![](mdelsole.github.io/brain-nexus/assets/images/tuto-billboard/2.gif)
 
 For the record, here's how squareVertices is made :
 
@@ -114,7 +114,7 @@ Remember that at this stage of the rendering pipeline, you're in Normalized Devi
 
 If you want a size in pixels, easy : just use (ScreenSizeInPixels / BillboardSizeInPixels) instead of BillboardSizeInScreenPercentage.
 
-![]({{site.baseurl}}/assets/images/tuto-billboard/3.gif)
+![](mdelsole.github.io/brain-nexus/assets/images/tuto-billboard/3.gif)
 
 # Solution #4 : Vertical rotation only
 

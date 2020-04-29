@@ -23,7 +23,7 @@ As we have seen, there are many possible collision shapes. Spheres are very easy
 
 An OBB is a box that fits the mesh, and when the mesh is translated or rotated, the same transformation is applied to the box :
 
-![]({{site.baseurl}}/assets/images/tuto-picking-obb/OBB.png)
+![](mdelsole.github.io/brain-nexus/assets/images/tuto-picking-obb/OBB.png)
 
 
 # Ray-OBB intersection algorithm
@@ -32,19 +32,19 @@ An OBB is a box that fits the mesh, and when the mesh is translated or rotated, 
 
 Consider the OBB below. On the X axis, this is delimited by 2 vertical planes, colored in red here. When intersected with the ray (a very simple operation), it gives 2 intersections, one "near" and one "far" :
 
-![]({{site.baseurl}}/assets/images/tuto-picking-obb/RayObb11.png)
+![](mdelsole.github.io/brain-nexus/assets/images/tuto-picking-obb/RayObb11.png)
 
 
 When the ray intersects the 2 others planes that delimit the Y axis (in green), it gives 2 more intersections. Notice how the intersections are ordered : you enter the green area -> you leave the green area -> you enter the red area -> you leave the red area. This means that there is no intersection.
 
-![]({{site.baseurl}}/assets/images/tuto-picking-obb/RayObb21.png)
+![](mdelsole.github.io/brain-nexus/assets/images/tuto-picking-obb/RayObb21.png)
 
 
  
 
 But if this order changes (you enter the green area -> you enter the red area), then you know there is an intersection !
 
-![]({{site.baseurl}}/assets/images/tuto-picking-obb/RayOBB31.png)
+![](mdelsole.github.io/brain-nexus/assets/images/tuto-picking-obb/RayOBB31.png)
 
 
 Let's put this in practice.

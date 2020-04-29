@@ -25,7 +25,7 @@ const float pi = 3.14159265f; // but an infinity of digits in reality
 
 ## Unit circle
 
-![]({{site.baseurl}}/assets/images/math-cheatsheet/UnitCircle.png)
+![](mdelsole.github.io/brain-nexus/assets/images/math-cheatsheet/UnitCircle.png)
 
 *( Modified from http://en.wikipedia.org/wiki/User:Gustavb under Crative Commons 3.0 )*t is an angle in radians.
 
@@ -57,14 +57,14 @@ Just like cartesian distance : sqrt( x&sup2; + y&sup2; + z&sup2; ). w doesn't co
 
 ## Cross product
 
-![]({{site.baseurl}}/assets/images/math-cheatsheet/Right_hand_rule_cross_product.png)
+![](mdelsole.github.io/brain-nexus/assets/images/math-cheatsheet/Right_hand_rule_cross_product.png)
 
 *( Modified from http://en.wikipedia.org/wiki/User:Acdx , former image under Creative Commons 3.0 )*The X is the notation for the cross product. length( a x b ) == length(a) * length(b) * sin(&theta;), so you may want to normalize() the result.
 
 ## Dot product
 
 
-##![]({{site.baseurl}}/assets/images/math-cheatsheet/DotProduct.png)
+##![](mdelsole.github.io/brain-nexus/assets/images/math-cheatsheet/DotProduct.png)
 
 
 *( from http://en.wikipedia.org/wiki/File:Dot_Product.svg )*A.B = length(A)*cos(Theta) , but most likely computed as A.x*B.x +A.y*B.y +A.z*B.z
@@ -104,19 +104,19 @@ normalizedVector = vec * ( 1.0f / vec.length() )
 
 example for a translation matrix :
 
-![]({{site.baseurl}}/assets/images/math-cheatsheet/translationExamplePosition1.png)
+![](mdelsole.github.io/brain-nexus/assets/images/math-cheatsheet/translationExamplePosition1.png)
 
 
  
 
 ## Matrix-Vector multiplication
 
-![]({{site.baseurl}}/assets/images/math-cheatsheet/MatrixXVect.gif)
+![](mdelsole.github.io/brain-nexus/assets/images/math-cheatsheet/MatrixXVect.gif)
 
 
 # Usual Transformations
 
-![]({{site.baseurl}}/assets/images/math-cheatsheet/MVP.png)
+![](mdelsole.github.io/brain-nexus/assets/images/math-cheatsheet/MVP.png)
 
 
 ... but in your shaders, you can also represent your vectors in tangent space. And in image-space when you do post-effects.

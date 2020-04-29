@@ -21,7 +21,7 @@ Since [Tutorial 8 : Basic shading](http://www.opengl-tutorial.org/beginners-tuto
 
 A "normal texture" looks like this :
 
-![]({{site.baseurl}}/assets/images/tuto-13-normal-mapping/normal.jpg)
+![](mdelsole.github.io/brain-nexus/assets/images/tuto-13-normal-mapping/normal.jpg)
 
 
 In each RGB texel is encoded a XYZ vector : each colour component is between 0 and 1, and each vector component is between -1 and 1, so this simple mapping goes from the texel to the normal :
@@ -38,22 +38,22 @@ This texture is mapped just like the diffuse one; the big problem is how to conv
 
 You are now so familiar with matrices that you know that in order to define a space (in our case, the tangent space), we need 3 vectors. We already have our UP vector : it's the normal, given by Blender or computed from the triangle by a simple cross product. It's represented in blue, just like the overall color of the normal map :
 
-![]({{site.baseurl}}/assets/images/tuto-13-normal-mapping/NormalVector.png)
+![](mdelsole.github.io/brain-nexus/assets/images/tuto-13-normal-mapping/NormalVector.png)
 
 
 Next we need a tangent, T : a vector parallel to the surface. But there are many such vectors :
 
-![]({{site.baseurl}}/assets/images/tuto-13-normal-mapping/TangentVectors.png)
+![](mdelsole.github.io/brain-nexus/assets/images/tuto-13-normal-mapping/TangentVectors.png)
 
 
 Which one should we choose ? In theory, any, but we have to be consistent with the neighbors to avoid introducing ugly edges. The standard method is to orient the tangent in the same direction that our texture coordinates :
 
-![]({{site.baseurl}}/assets/images/tuto-13-normal-mapping/TangentVectorFromUVs.png)
+![](mdelsole.github.io/brain-nexus/assets/images/tuto-13-normal-mapping/TangentVectorFromUVs.png)
 
 
 Since we need 3 vectors to define a basis, we must also compute the bitangent B (which is any other tangent vector, but if everything is perpendicular, math is simpler) :
 
-![]({{site.baseurl}}/assets/images/tuto-13-normal-mapping/NTBFromUVs.png)
+![](mdelsole.github.io/brain-nexus/assets/images/tuto-13-normal-mapping/NTBFromUVs.png)
 
 
  
@@ -69,7 +69,7 @@ Just solve this system for T and B, and you have your vectors ! (See code below)
 
 Once we have our T, B, N vectors, we also have this nice matrix which enables us to go from Tangent Space to Model Space :
 
-![]({{site.baseurl}}/assets/images/tuto-13-normal-mapping/TBN.png)
+![](mdelsole.github.io/brain-nexus/assets/images/tuto-13-normal-mapping/TBN.png)
 
 
 With this TBN matrix, we can transform normals (extracted from the texture) into model space. However, it's usually done the other way around : transform everything from Model Space to Tangent Space, and keep the extracted normal as-is. All computations are done in Tangent Space, which doesn't changes anything.
@@ -81,7 +81,7 @@ invTBN = transpose(TBN)
 ```
 
 , i.e. :
-![]({{site.baseurl}}/assets/images/tuto-13-normal-mapping/transposeTBN.png)
+![](mdelsole.github.io/brain-nexus/assets/images/tuto-13-normal-mapping/transposeTBN.png)
 
 
 # Preparing our VBO
@@ -380,7 +380,7 @@ Here is our result so far. You can notice that :
 * The bricks look bumpy because we have lots of variations in the normals
 * Cement looks flat because the normal texture is uniformly blue
 
-![]({{site.baseurl}}/assets/images/tuto-13-normal-mapping/normalmapping.png)
+![](mdelsole.github.io/brain-nexus/assets/images/tuto-13-normal-mapping/normalmapping.png)
 
 
 # Going further
@@ -397,7 +397,7 @@ t = glm::normalize(t - n * glm::dot(n, t));
 
 This formula may be hard to grasp, so a little schema might help :
 
-![]({{site.baseurl}}/assets/images/tuto-13-normal-mapping/gramshmidt.png)
+![](mdelsole.github.io/brain-nexus/assets/images/tuto-13-normal-mapping/gramshmidt.png)
 
 
 n and t are almost perpendicular, so we "push" t in the direction of -n by a factor of dot(n,t)
@@ -426,12 +426,12 @@ This is also done for each vertex at the end of computeTangentBasis().
 
 Just for fun, I added a specular texture to the code. It looks like this :
 
-![]({{site.baseurl}}/assets/images/tuto-13-normal-mapping/specular.jpg)
+![](mdelsole.github.io/brain-nexus/assets/images/tuto-13-normal-mapping/specular.jpg)
 
 
 and is used instead of the simple "vec3(0.3,0.3,0.3)" grey that we used as specular color.
 
-![]({{site.baseurl}}/assets/images/tuto-13-normal-mapping/normalmappingwithspeculartexture.png)
+![](mdelsole.github.io/brain-nexus/assets/images/tuto-13-normal-mapping/normalmappingwithspeculartexture.png)
 
 
 Notice that now, cement is always black : the texture says that it has no specular component.
@@ -442,7 +442,7 @@ The real aim of this website is that you DON'T use immediate mode, which is depr
 
 However, it also happens to be really handy for debugging :
 
-![]({{site.baseurl}}/assets/images/tuto-13-normal-mapping/immediatemodedebugging.png)
+![](mdelsole.github.io/brain-nexus/assets/images/tuto-13-normal-mapping/immediatemodedebugging.png)
 
 
 Here we visualize our tangent space with lines drawn in immediate mode.
@@ -495,7 +495,7 @@ color.xyz = LightDirection_tangentspace;
 ```
 {: .highlightglslfs }
 
-![]({{site.baseurl}}/assets/images/tuto-13-normal-mapping/colordebugging.png)
+![](mdelsole.github.io/brain-nexus/assets/images/tuto-13-normal-mapping/colordebugging.png)
 
 
 This means :
@@ -522,7 +522,7 @@ Appending the space of each vector in their names ("..._modelspace") helps fixin
 
 Created by James O'Hare. Click to enlarge.
 
-![]({{site.baseurl}}/assets/images/tuto-13-normal-mapping/normalMapMiniTut.jpg)
+![](mdelsole.github.io/brain-nexus/assets/images/tuto-13-normal-mapping/normalMapMiniTut.jpg)
 
 
 # Exercises

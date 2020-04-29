@@ -14,9 +14,9 @@
       } else {
         pageurl = pageurl.replaceAt(1, x);
       }
-      window.open ('{{site.baseurl}}' + pageurl,'_self',false);
+      window.open ('mdelsole.github.io/brain-nexus' + pageurl,'_self',false);
     } else { 
-      window.open ('{{site.baseurl}}/' + x + pageurl,'_self',false);
+      window.open ('mdelsole.github.io/brain-nexus/' + x + pageurl,'_self',false);
     }
     
     
@@ -25,9 +25,9 @@
   
   <div class="wrap">
     {% if page.language %}
-      <a class="site-title" href="{{site.baseurl}}/{{page.language}}/">{{ site.title }}</a>
+      <a class="site-title" href="mdelsole.github.io/brain-nexus/{{page.language}}/">{{ site.title }}</a>
     {% else %}
-      <a class="site-title" href="{{site.baseurl}}/">{{ site.title }}</a>
+      <a class="site-title" href="mdelsole.github.io/brain-nexus/">{{ site.title }}</a>
     {% endif %}
 
     <nav class="site-nav">
@@ -50,7 +50,7 @@
           {% capture lg %}{{page.language}}/{% endcapture %}
         {% endif %}
 
-        <li><a href="{{ site.baseurl }}/{{ lg }}beginners-tutorials/">Basic tutorials</a>
+        <li><a href="mdelsole.github.io/brain-nexus/{{ lg }}beginners-tutorials/">Basic tutorials</a>
           <span class="arrow">&#9660;</span>
           <ul class="sub-menu">
             {% assign sorted_pages = site.pages | sort:"order" %}
@@ -68,7 +68,7 @@
             {% endfor %}
           </ul>
         </li>
-        <li><a href="{{site.baseurl}}/{{ lg }}intermediate-tutorials/">Intermediate tutorials</a>
+        <li><a href="mdelsole.github.io/brain-nexus/{{ lg }}intermediate-tutorials/">Intermediate tutorials</a>
           <span class="arrow">&#9660;</span>
           <ul class="sub-menu">
             {% assign sorted_pages = site.pages | sort:"order" %}
@@ -107,7 +107,7 @@
             {% endif %}
           </ul>
         </li>
-        <li><a href="{{site.baseurl}}/{{ lg }}miscellaneous/">Miscellaneous</a>
+        <li><a href="mdelsole.github.io/brain-nexus/{{ lg }}miscellaneous/">Miscellaneous</a>
           <span class="arrow">&#9660;</span>
           <ul class="sub-menu">
             {% assign sorted_pages = site.pages | sort:"order" %}

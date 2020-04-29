@@ -204,17 +204,17 @@ void main(){
 
 And that's what we get :
 
-![]({{site.baseurl}}/assets/images/tuto-4-colored-cube/missing_z_buffer.png)
+![](mdelsole.github.io/brain-nexus/assets/images/tuto-4-colored-cube/missing_z_buffer.png)
 
 
 Urgh. Ugly. To understand what happens, here's what happens when you draw a "far" triangle and a "near" triangle :
 
-![]({{site.baseurl}}/assets/images/tuto-4-colored-cube/FarNear.png)
+![](mdelsole.github.io/brain-nexus/assets/images/tuto-4-colored-cube/FarNear.png)
 
 
 Seems OK. Now draw the "far" triangle last :
 
-![]({{site.baseurl}}/assets/images/tuto-4-colored-cube/NearFar.png)
+![](mdelsole.github.io/brain-nexus/assets/images/tuto-4-colored-cube/NearFar.png)
 
 
 It overdraws the "near" one, even though it's supposed to be behind it ! This is what happens with our cube : some faces are supposed to be hidden, but since they are drawn last, they are visible. Let's call the Z-Buffer to the rescue !
@@ -245,7 +245,7 @@ glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 And this is enough to solve all your problems.
 
-![]({{site.baseurl}}/assets/images/tuto-4-colored-cube/one_color_per_vertex.png)
+![](mdelsole.github.io/brain-nexus/assets/images/tuto-4-colored-cube/one_color_per_vertex.png)
 
 # Exercises
 

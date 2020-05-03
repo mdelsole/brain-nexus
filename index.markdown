@@ -8,18 +8,11 @@ date_gmt: '2011-05-07 11:00:04 +0200'
 categories: []
 tags: []
 ---
-This site is dedicated to **tutorials** for **OpenGL 3.3** and later !
-
-Full source code is available [here]({{ site.baseurl }}/download).
-
-Feel free to contact us for any question, remark, bug report, or other : <a href="mailto:contact@opengl-tutorial.org">contact@opengl-tutorial.org</a>, but don't forget to read the [FAQ]({{ site.baseurl }}/miscellaneous/faq/) first !
-
-Contributions are welcome, especially for the [translations]({{site.baseurl}}/miscellaneous/contribute/translation/) !
-
-If you enjoy our work, please don't hesitate to spread the word!
+This is a site dedicated to learning anything and everything about the human brain.
+Features of this website:
+* Brain Atlas: Everything we know about each part of the brain
+* Paper Vault: A place for my deep-dives of neuroscience research papers
 
 <div class="home">
-
-  <h1>News</h1>
 
 </div>

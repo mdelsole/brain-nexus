@@ -10,8 +10,19 @@ tags: []
 ---
 This is a site dedicated to learning anything and everything about the human brain.
 Features of this website:
-* Brain Atlas: Everything we know about each part of the brain
+* Brain Architecture: Everything we know about the underlying architecture and learning mechanics of the brain
+    * Neurons
+    * Synapses
+    * Networks
+* Brain Atlas: Everything we know about each function of the brain
+    * Perception
+    * Memory
+    * Language
+    * Motor
+    * Executive
+* Computational Neuroscience: Research of how to build neuroscience properties in computers
 * Paper Vault: A place for my deep-dives of neuroscience research papers
+    * Masterlist
 
 <div class="home">
 

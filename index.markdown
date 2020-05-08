@@ -14,9 +14,9 @@ Features of this website:
     * Neurons
     * Synapses
     * Networks
-* Brain Atlas: Everything we know about each function of the brain
+* Brain Algorithms: Everything we know about each function of the brain
     * Perception
-    * Memory
+    * Memory 
     * Language
     * Motor
     * Executive

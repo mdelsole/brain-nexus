@@ -54,7 +54,7 @@
           <span class="arrow">&#9660;</span>
           <ul class="sub-menu">
             {% assign sorted_pages = site.pages | sort:"order" %}
-            {% capture tuts_root %}/{{ lg }}beginners-tutorials/{% endcapture %}
+            {% capture tuts_root %}/{{ lg }}brain-architecture/{% endcapture %}
             {% for p in sorted_pages %}
               {% assign splt = p.url | split: tuts_root %}
               {% if splt.size == 2 and splt[0] == '' %}

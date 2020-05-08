@@ -11,6 +11,7 @@ tags: []
 This is a site dedicated to learning anything and everything about the human brain.
 Features of this website:
 * Brain Architecture: Everything we know about the underlying architecture and learning mechanics of the brain
+    * Overview
     * Neurons
     * Synapses
     * Networks

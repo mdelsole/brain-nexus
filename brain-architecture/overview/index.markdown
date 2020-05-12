@@ -27,6 +27,11 @@ Obviously, it would be impossible to try to understand what each individual neur
 
 The brain has two main parts: the "new" brain, called the **neocortex**, and the "old" brain, which is everything not in the neocortex. The distinction between these two is fundamental to understanding how exactly we humans operate.
 
-Most of our intelligence comes from the neocortex. Meanwhile, most of our basic life functions come from our 
+Most of our intelligence comes from the neocortex. Meanwhile, most of our basic life functions (breathing, hunger, etc.) come from our old brain. There is a large host of interconnectivty between the two, and the line can become messy at times, but it is nevertheless a useful distinction.
 
+On this site, we will focus mostly on the neocortex. We will of course cover relevant parts of the old brain, but a large portion of it is made up of hard-coded systems; nerve cell connections built in to our DNA. In contrast, the neocortex is where most learning happens. It is extremely plastic, and changes throughout our entire life. My goal with this website is determine the blueprints for intelligence, and the new brain is the best place to focus on that. From here on out, assume that when I use generic terms like "neurons", I'm talking solely about neurons in the neocortex; rules will differ in the old brain.
+
+# The Neocortex
+
+The neocortex is where the real magic of human intelligence happens. Many professors and books try to divide the neocortex (sometimes shortened to just **cortex**) into different regions. They'll tell you it has the "occiptal lobe", the "temporal lobe", and so on. Unfortunately, such distinctions aren't very useful. Many functions (if not all) reach across many different areas. Trying to isolate them by saying things like "decision-making happens in the orbito-frontal cortex" is misleading, and often just plain wrong.
 

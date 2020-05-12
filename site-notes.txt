@@ -1,0 +1,1 @@
+Layout, categories, and order are how you change the link in the footer

@@ -1,11 +1,11 @@
 ---
-layout: tutorial
+layout: page
 status: publish
 published: true
 title: 'Overview'
 date: '2011-04-07 17:54:16 +0200'
 date_gmt: '2011-04-07 17:54:16 +0200'
-categories: [tuto]
+categories: []
 order: 10
 tags: []
 ---

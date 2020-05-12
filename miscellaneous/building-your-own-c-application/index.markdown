@@ -389,7 +389,7 @@ int main( void )
 	glClearColor(0.0f, 0.0f, 0.3f, 0.0f);
 
 	do{
-		// Draw nothing, see you in tutorial 2 !
+		// Draw nothing, see you in Tutorial 2 !
 
 		// Swap buffers
 		glfwSwapBuffers();

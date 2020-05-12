@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: page
 status: publish
 published: true
 title: 'The Origin of Life'

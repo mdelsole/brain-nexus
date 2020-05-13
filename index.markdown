@@ -14,16 +14,23 @@ Features of this website:
     * Overview
     * Neurons
     * Synapses
-    * Networks
-* Brain Algorithms: Everything we know about each function of the brain
     * Perception
     * Memory 
     * Language
     * Motor
     * Executive
+    * More...
 * Computational Neuroscience: Research of how to build neuroscience properties in computers
+    * Neurons
+    * Synapses
+    * Networks
 * Paper Vault: A place for my deep-dives of neuroscience research papers
     * Masterlist
+* Off Topic:
+    * Semi-off topic discussions of various things, from the origin of life to quantum computing
+* Misc:
+    * FAQ
+    * Contribute
 
 <div class="home">
 

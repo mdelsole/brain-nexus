@@ -68,11 +68,11 @@
             {% endfor %}
           </ul>
         </li>
-        <li><a href="{{site.baseurl}}/{{ lg }}intermediate-tutorials/">Intermediate tutorials</a>
+        <li><a href="{{site.baseurl}}/{{ lg }}brain-algorithms/">Brain Algorithms</a>
           <span class="arrow">&#9660;</span>
           <ul class="sub-menu">
             {% assign sorted_pages = site.pages | sort:"order" %}
-            {% capture tuts_root %}/{{ lg }}intermediate-tutorials/{% endcapture %}
+            {% capture tuts_root %}/{{ lg }}brain-algorithms/{% endcapture %}
             {% assign level = -1 %}
             {% for p in sorted_pages %}
               {% assign splt = p.url | split: tuts_root %}

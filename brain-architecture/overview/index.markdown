@@ -37,9 +37,11 @@ My goal with this website is determine the blueprints for intelligence, and the 
 
 # The Neocortex
 
-The neocortex is where the real magic of human intelligence happens. Many professors and books try to divide the neocortex (sometimes shortened to just **cortex**) into different regions. They'll tell you it has the "occiptal lobe", the "temporal lobe", and so on. 
+The neocortex is where the real magic of human intelligence happens. Many professors and books try to divide the neocortex (sometimes shortened to just **cortex**) into different regions. They'll tell you it has the "occiptal lobe", the "temporal lobe", and so on. Unfortunately, such distinctions aren't very accurate. Many functions (if not all) reach across many different areas. Trying to isolate them by saying things like "decision-making happens in the orbito-frontal cortex" is misleading, and often just plain wrong. 
 
-Unfortunately, such distinctions aren't very useful. Many functions (if not all) reach across many different areas. Trying to isolate them by saying things like "decision-making happens in the orbito-frontal cortex" is misleading, and often just plain wrong. In this guide, instead of breaking things into sections of the brain and what mental functions they contribute to, we'll break things into mental functions and what sections of the brain they involve.
+However, that's not to say that specific regions don't contribute to specific functions. In fact, quite the contrary. The first evidence we had of such phenomenon comes from **aphasia**, a language disorder that results in specific parts of language abilities being disabled due to damage to specific brain regions (usually due to stroke or surgery). But to say that these abilities are *solely* the product of a specifc brain region is not a useful simplification.
+
+In this guide, instead of breaking things into sections of the brain and what mental functions they contribute to, we'll break things into mental functions and what sections of the brain they involve.
 
 The neocortex's rapid evolution is what we can attribute our success as humans to. All mammals have a neocortex, but the human neocortex is much more elaborate than, say, the rat's neocortex. What made this rapid evolution possible is that the neocortex is essentially **the same** everywhere. It has many different areas, but they all share one common architecture. The only difference is what the areas are hooked up to.
 

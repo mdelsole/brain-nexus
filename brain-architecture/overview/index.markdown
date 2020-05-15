@@ -53,6 +53,26 @@ We'll see throughout this guide that the neocortex interacts with the old brain 
 
 # The Central Nervous System
 
+There are five main parts to the central nervous system, together which make up our entire network of communication and intelligence across our body.
+
+We begin with the **spinal cord**. This piece is in charge of recieving the sensory information from skin, joints, muscles, etc. all over the body and *sending* it up to the brain. Most things in the nervous system are *bi-directional*, and the spinal cord is no exception; It is also in charge of *recieving* signals from brain and using them to control the movement of your limbs. If you lose your spinal cord, good luck controlling your body.
+
+The spinal cord connects to the **brain stem**, which is the big super-highway between your body and your brain. Additionally, it plays a role in motor control for the head and regulating how alert/awake you are. 
+
+The brain stem has 3 distinct parts: the **medulla oblongata**, the **pons** and the **midbrain**. The medulla oblongata controls vital basic life functions like digestion, breathing, and heart rate. The pons is in charge of conveying movement information from the "main brain" to the cerebellum. The midbrain handles most of the sensory and motor signals.
+
+The **cerebellum** is another part. It's right behind the brain stem, connected to both the "main brain" and the brain stem. It modulates motor control and is used in learning movement-related skills.
+
+Past the brain stem and the adjacent cerebellum lies the **diencephalon**. This structure contains two parts: the *thalamus* and the *hypothalamus* (literally meaning "under thalamus"). 
+
+The thalamus is in charge of pre-processing information between the cerebal cortex and the rest of the central nervous system. Think of it as a giant switchboard for communication between the "main brain" and the body. The hypothalamus is in charge of more basic body functions, like the autonmic, endocrine, and visceral systems.
+
+I've used the term *"main brain"* a few times here, but what exactly is it? It's the final part of the nervous system, the **cerebrum**. When you think of the brain, you probably think of this. This is where intelligence happens. The cerebrum has two parts: the very wrinkly outer layer called the **cerebral cortex**, and three deeply-buried parts called the **basal gaglia**, the **hippocampus**, and the **amygdala**.
+
+In humans, almost all of the cerebral cortex is the **neocortex**. The distinction of neocortex ("neo" literally meaning "new") is the parts we humans have that most other mammals (like rodents) don't. The remaining portion of the cerebral cortex is mostly our olefactory system in charge of processing smells, so you can probably figure why all mammals would have that and it's not a "new" part of the brain.
+
+The cerebrum can be further divided into two cerebral hemispheres. The distinct mechanics of having two hemispheres instead of one will be discussed later on.
+
 
 # Citations
 

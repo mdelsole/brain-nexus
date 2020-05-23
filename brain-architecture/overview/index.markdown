@@ -67,11 +67,15 @@ Past the brain stem and the adjacent cerebellum lies the **diencephalon**. This 
 
 The thalamus is in charge of pre-processing information between the cerebal cortex and the rest of the central nervous system. Think of it as a giant switchboard for communication between the "main brain" and the body. The hypothalamus is in charge of more basic body functions, like the autonmic, endocrine, and visceral systems.
 
-I've used the term *"main brain"* a few times here, but what exactly is it? It's the final part of the nervous system, the **cerebrum**. When you think of the brain, you probably think of this. This is where intelligence happens. The cerebrum has two parts: the very wrinkly outer layer called the **cerebral cortex**, and three deeply-buried parts called the **basal gaglia**, the **hippocampus**, and the **amygdala**.
+I've used the term *"main brain"* a few times here, but what exactly is it? It's the final part of the nervous system, the **cerebrum**. When you think of the brain, you probably think of this. This is where intelligence happens. The cerebrum has two parts: the very wrinkly outer layer called the **cerebral cortex**, and three deeply-buried parts called the **basal ganglia**, the **hippocampus**, and the **amygdala**.
 
-In humans, almost all of the cerebral cortex is the **neocortex**. The distinction of neocortex ("neo" literally meaning "new") is the parts we humans have that most other mammals (like rodents) don't. The remaining portion of the cerebral cortex is mostly our olefactory system in charge of processing smells, so you can probably figure why all mammals would have that and it's not a "new" part of the brain.
+In humans, almost all of the cerebral cortex is the **neocortex**. The distinction of neocortex ("neo" literally meaning "new") is the parts we humans have that most other mammals (like rodents) don't. The remaining "old" portion of the cerebral cortex is mostly our *olefactory* system in charge of processing smells, so you can probably figure why all mammals would have that and it's not a "new" part of the brain.
 
 The cerebrum can be further divided into two cerebral hemispheres. The distinct mechanics of having two hemispheres instead of one will be discussed later on.
+
+The buried parts of the cerebrum are very important. The *basal ganglia* regulate motor performance by learning from reward/punishment and shaping action selection. The *hippocampus* is crucial for memory storage and by extension, learning in general. The *amygdala* is important for signals tied to emotional states.
+
+These five parts of the nervous system, the spinal cord, brain stem, cerebellum, diencephalon, and cerebrum, together are responsible for everything humans have been able to accomplish. We would be nothing without their abilities. Throughout the rest of this guide, we will explore the function and mechanisms of each part.
 
 
 # Citations

@@ -23,34 +23,6 @@ The brain is an extremely large system. At its most basic level, it is made up o
 
 Obviously, it would be impossible to try to understand what each individual neuron in the brain does. Fortunately for us, the brain has a *core set of principles* that it operates with. Most of our neural processing comes from a few simple mechanics repeated over and over. Throughout this section, we'll learn how this core set of principles emerges from the basic biological properties of neurons and synapses.
 
-# Parts of the Brain
-
-The brain has two main parts: the "new" brain, called the **neocortex**, and the "old" brain, which is everything not in the neocortex. The distinction between these two is fundamental to understanding how exactly we humans operate.
-
-Most of our intelligence comes from the neocortex. Meanwhile, most of our basic life functions (breathing, hunger, etc.) come from our old brain. There is a large host of interconnectivty between the two, and the line can become messy at times, but it is nevertheless a useful distinction.
-
-At the core of our brain, we have a reptilian brain. On the evolutionary tree, reptiles are at the bottom.
-
-On this site, we will focus mostly on the neocortex. We will of course cover relevant parts of the old brain, but a large portion of it is made up of hard-coded systems; nerve cell connections built in to our DNA. In contrast, the neocortex is where most learning happens. It is extremely plastic, and changes throughout our entire life. 
-
-My goal with this website is determine the blueprints for intelligence, and the new brain is the best place to focus on that. From here on out, assume that when I use generic terms like "neurons", I'm talking solely about neurons in the neocortex; rules will differ in the old brain.
-
-# The Neocortex
-
-The neocortex is where the real magic of human intelligence happens. Many professors and books try to divide the neocortex (sometimes shortened to just **cortex**) into different regions. They'll tell you it has the "occiptal lobe", the "temporal lobe", and so on. Unfortunately, such distinctions aren't very accurate. Many functions (if not all) reach across many different areas. Trying to isolate them by saying things like "decision-making happens in the orbito-frontal cortex" is misleading, and often just plain wrong. 
-
-However, that's not to say that specific regions don't contribute to specific functions. In fact, quite the contrary. The first evidence we had of such phenomenon comes from **aphasia**, a language disorder that results in specific parts of language abilities being disabled due to damage to specific brain regions (usually due to stroke or surgery). But to say that these abilities are *solely* the product of a specifc brain region is not a useful simplification.
-
-In this guide, instead of breaking things into sections of the brain and what mental functions they contribute to, we'll break things into mental functions and what sections of the brain they involve.
-
-The neocortex's rapid evolution is what we can attribute our success as humans to. All mammals have a neocortex, but the human neocortex is much more elaborate than, say, the rat's neocortex. What made this rapid evolution possible is that the neocortex is essentially **the same** everywhere. It has many different areas, but they all share one common architecture. The only difference is what the areas are hooked up to.
-
-To show you just how uniform it is, we can take a look at a study done by Sharma et al. [1]. Here, they took the retinal signals from the eyes of ferrets and hooked them up to the auditory pathway, the region of the neocortex involved in processing sounds. Amazingly, the ferrets could learn to see. This is only possible because the way the neocortex learns is the same everywhere. 
-
-This is good news for us who want to understand the brain because it means there's really only one central learning algorithm responsible for our ability to understand things, even if it's complicated. 
-
-We'll see throughout this guide that the neocortex interacts with the old brain to give us the full range of mental functions we enjoy. Both are parts of the brain are equally important to human survival, but the neocortex is much more important to human intelligence.
-
 # The Central Nervous System
 
 There are five main parts to the central nervous system, together which make up our entire network of communication and intelligence across our body.
@@ -77,6 +49,37 @@ The buried parts of the cerebrum are very important. The *basal ganglia* regulat
 
 These five parts of the nervous system, the spinal cord, brain stem, cerebellum, diencephalon, and cerebrum, together are responsible for everything humans have been able to accomplish. We would be nothing without their abilities. Throughout the rest of this guide, we will explore the function and mechanisms of each part.
 
+# Cognitive Abilities are Localized
+
+Through the use of brain imagery, it is now clear that cognitive abilities arise from specific regions in the brain. These regions are the same in nearly everyone; damage to the same brain areas consistently causes the same deficits in cognitive abilities across many different people.
+
+The place most responsible for our advanced cognitive abilities is the **cerebral cortex**. The cerebral cortex is often divided into four lobes based on the dividing skull bones: the *frontal*, *parietal*, *temporal*, and *occipital* lobes. The material of each of these lobes is in the form of wrinkly infoldings, an evolutionary starategy for packing more neurons into a tight space.
+
+Neuroscientists have taken a liking to these wrinkles, and name regions based off of them. The crests are referred to as *gyri* (plural for *gyrus*), and the grooves are called *sulci*. Regions are named based on which gyrus or sulci they are located on, such as the *precentral gyrus*.
+
+The lobes themselves have specialized functions too. The *frontal* lobe handles short-term memory, planning future actions, and controlling movement. The *parietal* lobe is involved in your mental representation of your body and its place in the world around you. The temporal lobe is concerned with memory, learning, ane emotion, containing both the hippocampus and the amygdala. The occipital lobe is in charge of vision, the most pronounced sense humans have.
+
+The cerebral cortex is also divided into two hemispheres. Oddly, each hemisphere is concerned with the sensory/motor information of the *opposite* side of the body; since most people are right-handed, they are left-brain dominant. Additionally, although they are similar in appearance, the hemispheres are not completely equivelant in function.
+
+Before moving on, it's important to note that hardly any function in the brain is entirely localized to one specific place. Most areas have a specialization, but the real power of the brain lies in the communcation between different areas. As a result, many functions arise from the *interaction* and *integration* of signals from multiple areas.
+
+
+
+# The Neocortex
+
+The neocortex is where the real magic of human intelligence happens. Many professors and books try to divide the neocortex (sometimes shortened to just **cortex**) into different regions. They'll tell you it has the "occiptal lobe", the "temporal lobe", and so on. Unfortunately, such distinctions aren't very accurate. Many functions (if not all) reach across many different areas. Trying to isolate them by saying things like "decision-making happens in the orbito-frontal cortex" is misleading, and often just plain wrong. 
+
+However, that's not to say that specific regions don't contribute to specific functions. In fact, quite the contrary. The first evidence we had of such phenomenon comes from **aphasia**, a language disorder that results in specific parts of language abilities being disabled due to damage to specific brain regions (usually due to stroke or surgery). But to say that these abilities are *solely* the product of a specifc brain region is not a useful simplification.
+
+In this guide, instead of breaking things into sections of the brain and what mental functions they contribute to, we'll break things into mental functions and what sections of the brain they involve.
+
+The neocortex's rapid evolution is what we can attribute our success as humans to. All mammals have a neocortex, but the human neocortex is much more elaborate than, say, the rat's neocortex. What made this rapid evolution possible is that the neocortex is essentially **the same** everywhere. It has many different areas, but they all share one common architecture. The only difference is what the areas are hooked up to.
+
+To show you just how uniform it is, we can take a look at a study done by Sharma et al. [1]. Here, they took the retinal signals from the eyes of ferrets and hooked them up to the auditory pathway, the region of the neocortex involved in processing sounds. Amazingly, the ferrets could learn to see. This is only possible because the way the neocortex learns is the same everywhere. 
+
+This is good news for us who want to understand the brain because it means there's really only one central learning algorithm responsible for our ability to understand things, even if it's complicated. 
+
+We'll see throughout this guide that the neocortex interacts with the old brain to give us the full range of mental functions we enjoy. Both are parts of the brain are equally important to human survival, but the neocortex is much more important to human intelligence.
 
 # Citations
 

@@ -53,9 +53,9 @@ These five parts of the nervous system, the spinal cord, brain stem, cerebellum,
 
 Through the use of brain imagery, it is now clear that cognitive abilities arise from specific regions in the brain. These regions are the same in nearly everyone; damage to the same brain areas consistently causes the same deficits in cognitive abilities across many different people.
 
-The place most responsible for our advanced cognitive abilities is the **cerebral cortex**. The cerebral cortex is often divided into four lobes based on the dividing skull bones: the *frontal*, *parietal*, *temporal*, and *occipital* lobes. The material of each of these lobes is in the form of wrinkly infoldings, an evolutionary starategy for packing more neurons into a tight space.
+The place most responsible for our advanced cognitive abilities is the **cerebral cortex**. The cerebral cortex is often divided into four lobes based on the dividing skull bones: the **frontal**, **parietal**, **temporal**, and **occipital** lobes. The material of each of these lobes is in the form of wrinkly infoldings, an evolutionary starategy for packing more neurons into a tight space.
 
-Neuroscientists have taken a liking to these wrinkles, and name regions based off of them. The crests are referred to as *gyri* (plural for *gyrus*), and the grooves are called *sulci*. Regions are named based on which gyrus or sulci they are located on, such as the *precentral gyrus*.
+Neuroscientists have taken a liking to these wrinkles, and name regions based off of them. The crests are referred to as **gyri** (plural for *gyrus*), and the grooves are called **sulci**. Regions are named based on which gyrus or sulci they are located on, such as the *precentral gyrus*.
 
 The lobes themselves have specialized functions too. The *frontal* lobe handles short-term memory, planning future actions, and controlling movement. The *parietal* lobe is involved in your mental representation of your body and its place in the world around you. The *temporal* lobe is concerned with memory, learning, ane emotion, containing both the hippocampus and the amygdala. The *occipital* lobe is in charge of vision, the most pronounced sense humans have.
 
@@ -69,7 +69,21 @@ Many flat-out believe that emotions are governed on a different plane of existen
 
 # The Interaction of Cognitive Abilities
 
-It's important to note that hardly any function in the brain is entirely localized to one specific place. Most areas have a specialization, but the real power of the brain lies in the communcation between different areas. As a result, many functions arise from the *interaction* and *integration* of signals from multiple areas.
+It's important to note that hardly any function in the brain is entirely localized to one specific place. Most areas have a specialization, but the real power of the brain lies in the communcation between different areas. As a result, many functions arise from the **interaction** and **integration** of signals from multiple areas.
+
+Although there was a time when it was unclear, we now know that all cognitive abilities result from the *interaction* of many different brain regions, each specializing in certain processing. Specific brain regions do not produce our cognitive abilities, but rather act as **basic processing units** that fit into a large web of interconnectivity. 
+
+Consider the concept of a cat. When you think of a cat, everything you know about cats seems to be stored as one complete representation; what they look like, what they sound like, what they like to eat, etc. But in reality, your knowledge of cats is divided into distinct **categories** and stored separately.
+
+One region of your brain stores the information about the physical features that trigger your visual recognition of cats. The sound that cats make is stored separately, and what that sound might mean (they're hungry or they want attention) is stored elsewhere. It's not a single cell that represents what a cat is; it's a large **gestalt** containing every piece of information about cats.
+
+## Consciousness
+
+Perhaps the best example is the organization of your sense of self; the self-aware being that is thought of when you say "I". This coherence is achieved through the connection of independent circuits in our two hemishperes, each with its own sense of awareness. 
+
+The discovery was made when studying patients whose **corpus callosum** (the major bundle connecting the two hemispheres) had been severed. Amazingly, it was found that each hemisphere had a consciousness and was able to function **independently** of the other.
+
+A great example is of one patient who was reading his favorite book in his left hand. The left hand is controlled by the right hemisphere, which cannot read (logical processing is done by the left hemisphere). The right hemisphere found just looking at the book to be boring, and commanded the left hand to put the book away. Each hemisphere has a mind of its own.
 
 
 # The Neocortex
@@ -85,6 +99,8 @@ To show you just how uniform it is, we can take a look at a study done by Sharma
 This is good news for us who want to understand the brain because it means there's really only one central learning algorithm responsible for our ability to understand things, even if it's complicated. 
 
 We'll see throughout this guide that the neocortex interacts with the old brain to give us the full range of mental functions we enjoy. Both are parts of the brain are equally important to human survival, but the neocortex is much more important to human intelligence.
+
+# Conclusion
 
 # Citations
 

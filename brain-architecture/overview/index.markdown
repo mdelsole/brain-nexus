@@ -23,7 +23,7 @@ The brain is an extremely large system. At its most basic level, it is made up o
 
 Obviously, it would be impossible to try to understand what each individual neuron in the brain does. Fortunately for us, the brain has a *core set of principles* that it operates with. Most of our neural processing comes from a few simple mechanics repeated over and over. Throughout this guide, we'll learn how this core set of principles emerges from the basic biological properties of neurons and synapses.
 
-# The Central Nervous System
+## The Central Nervous System
 
 There are five main parts to the central nervous system, together which make up our entire network of communication and intelligence across our body.
 
@@ -49,7 +49,7 @@ The buried parts of the cerebrum are very important. The *basal ganglia* regulat
 
 These five parts of the nervous system, the spinal cord, brain stem, cerebellum, diencephalon, and cerebrum, together are responsible for everything humans have been able to accomplish. We would be nothing without their abilities. Throughout the rest of this guide, we will explore the function and mechanisms of each part.
 
-# The Localization of Cognitive Abilities
+## The Localization of Cognitive Abilities
 
 Through the use of brain imagery, it is now clear that cognitive abilities arise from specific regions in the brain. These regions are the same in nearly everyone; damage to the same brain areas consistently causes the same deficits in cognitive abilities across many different people.
 
@@ -67,7 +67,7 @@ Despite the fact neuroscientists have been able to provide a plethora of evidenc
 
 Many flat-out believe that emotions are governed on a different plane of existence and can't be explained be science (especially that super powerful one called *love*). Even of those who concede emotions are produced by our brain, many believe they are an expression of whole-brain activity. The evidence, however, is on the contrary. They might not be mapped as precisely as our sensory or motor systems, but distinct emotions *can* be elicited by stimulating specific parts of the brain.
 
-# The Interaction of Cognitive Abilities
+## The Interaction of Cognitive Abilities
 
 It's important to note that hardly any function in the brain is entirely localized to one specific place. Most areas have a specialization, but the real power of the brain lies in the communcation between different areas. As a result, many functions arise from the **interaction** and **integration** of signals from multiple areas.
 
@@ -77,7 +77,7 @@ Consider the concept of a cat. When you think of a cat, everything you know abou
 
 One region of your brain stores the information about the physical features that trigger your visual recognition of cats. The sound that cats make is stored separately, and what that sound might mean (they're hungry or they want attention) is stored elsewhere. It's not a single cell that represents what a cat is; it's a large **gestalt** containing every piece of information about cats.
 
-## Consciousness
+### Consciousness
 
 Perhaps the best example is the organization of your sense of self; the self-aware being that is thought of when you say "I". This coherence is achieved through the connection of independent circuits in our two hemishperes, each with its own sense of awareness. 
 
@@ -85,6 +85,9 @@ The discovery was made when studying patients whose **corpus callosum** (the maj
 
 A great example is of one patient who was reading his favorite book in his left hand. The left hand is controlled by the right hemisphere, which cannot read (logical processing is done by the left hemisphere). The right hemisphere found just looking at the book to be boring, and commanded the left hand to put the book away. Each hemisphere has a mind of its own.
 
+# The Neuron
+
+# Genes
 
 # The Neocortex
 

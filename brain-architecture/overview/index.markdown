@@ -21,7 +21,7 @@ Welcome to the brain architecture section! Here, we will learn everything humans
 
 The brain is an extremely large system. At its most basic level, it is made up of **neurons**. These are the basic computational unit of the brain. A neuron by itself is quite usless; only when it is connected to another neuron via **synapses** does it start to have functionality. The brain has over 10,000,000,000 of these neurons, each interacting with each other with about 10,000 synapses. That's over 1 trillion different connections! 
 
-Obviously, it would be impossible to try to understand what each individual neuron in the brain does. Fortunately for us, the brain has a *core set of principles* that it operates with. Most of our neural processing comes from a few simple mechanics repeated over and over. Throughout this section, we'll learn how this core set of principles emerges from the basic biological properties of neurons and synapses.
+Obviously, it would be impossible to try to understand what each individual neuron in the brain does. Fortunately for us, the brain has a *core set of principles* that it operates with. Most of our neural processing comes from a few simple mechanics repeated over and over. Throughout this guide, we'll learn how this core set of principles emerges from the basic biological properties of neurons and synapses.
 
 # The Central Nervous System
 
@@ -49,7 +49,7 @@ The buried parts of the cerebrum are very important. The *basal ganglia* regulat
 
 These five parts of the nervous system, the spinal cord, brain stem, cerebellum, diencephalon, and cerebrum, together are responsible for everything humans have been able to accomplish. We would be nothing without their abilities. Throughout the rest of this guide, we will explore the function and mechanisms of each part.
 
-# Cognitive Abilities are Localized
+# The Localization of Cognitive Abilities
 
 Through the use of brain imagery, it is now clear that cognitive abilities arise from specific regions in the brain. These regions are the same in nearly everyone; damage to the same brain areas consistently causes the same deficits in cognitive abilities across many different people.
 
@@ -57,19 +57,24 @@ The place most responsible for our advanced cognitive abilities is the **cerebra
 
 Neuroscientists have taken a liking to these wrinkles, and name regions based off of them. The crests are referred to as *gyri* (plural for *gyrus*), and the grooves are called *sulci*. Regions are named based on which gyrus or sulci they are located on, such as the *precentral gyrus*.
 
-The lobes themselves have specialized functions too. The *frontal* lobe handles short-term memory, planning future actions, and controlling movement. The *parietal* lobe is involved in your mental representation of your body and its place in the world around you. The temporal lobe is concerned with memory, learning, ane emotion, containing both the hippocampus and the amygdala. The occipital lobe is in charge of vision, the most pronounced sense humans have.
+The lobes themselves have specialized functions too. The *frontal* lobe handles short-term memory, planning future actions, and controlling movement. The *parietal* lobe is involved in your mental representation of your body and its place in the world around you. The *temporal* lobe is concerned with memory, learning, ane emotion, containing both the hippocampus and the amygdala. The *occipital* lobe is in charge of vision, the most pronounced sense humans have.
 
-The cerebral cortex is also divided into two hemispheres. Oddly, each hemisphere is concerned with the sensory/motor information of the *opposite* side of the body; since most people are right-handed, they are left-brain dominant. Additionally, although they are similar in appearance, the hemispheres are not completely equivelant in function.
+The cerebral cortex is also divided into two hemispheres. Oddly, each hemisphere is concerned with the sensory/motor information of the *opposite* side of the body; since most people are right-handed, they are left-brain dominant. 
 
-Before moving on, it's important to note that hardly any function in the brain is entirely localized to one specific place. Most areas have a specialization, but the real power of the brain lies in the communcation between different areas. As a result, many functions arise from the *interaction* and *integration* of signals from multiple areas.
+Additionally, although they are similar in appearance, the hemispheres are not completely equivelant in function. There's a popular pseudo-science about whether you're a "left-brain" or a "right-brain", but it has little evidence. Yes, the right brain often processes emotional aspects and the left brain often processes logical aspects, but there's hardly any evidence to say people specialize in one side over the other.
 
+Despite the fact neuroscientists have been able to provide a plethora of evidence for specific brain regions being responsible for certain cognitive abilities, the idea has never been able to convince many when it comes to emotions. 
+
+Many flat-out believe that emotions are governed on a different plane of existence and can't be explained be science (especially that super powerful one called *love*). Even of those who concede emotions are produced by our brain, many believe they are an expression of whole-brain activity. The evidence, however, is on the contrary. They might not be mapped as precisely as our sensory or motor systems, but distinct emotions *can* be elicited by stimulating specific parts of the brain.
+
+# The Interaction of Cognitive Abilities
+
+It's important to note that hardly any function in the brain is entirely localized to one specific place. Most areas have a specialization, but the real power of the brain lies in the communcation between different areas. As a result, many functions arise from the *interaction* and *integration* of signals from multiple areas.
 
 
 # The Neocortex
 
-The neocortex is where the real magic of human intelligence happens. Many professors and books try to divide the neocortex (sometimes shortened to just **cortex**) into different regions. They'll tell you it has the "occiptal lobe", the "temporal lobe", and so on. Unfortunately, such distinctions aren't very accurate. Many functions (if not all) reach across many different areas. Trying to isolate them by saying things like "decision-making happens in the orbito-frontal cortex" is misleading, and often just plain wrong. 
-
-However, that's not to say that specific regions don't contribute to specific functions. In fact, quite the contrary. The first evidence we had of such phenomenon comes from **aphasia**, a language disorder that results in specific parts of language abilities being disabled due to damage to specific brain regions (usually due to stroke or surgery). But to say that these abilities are *solely* the product of a specifc brain region is not a useful simplification.
+The neocortex is where the real magic of human intelligence happens. 
 
 In this guide, instead of breaking things into sections of the brain and what mental functions they contribute to, we'll break things into mental functions and what sections of the brain they involve.
 

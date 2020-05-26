@@ -29,7 +29,7 @@ There are five main parts to the central nervous system, together which make up 
 
 We begin with the **spinal cord**. This piece is in charge of recieving the sensory information from skin, joints, muscles, etc. all over the body and *sending* it up to the brain. Most things in the nervous system are *bi-directional*, and the spinal cord is no exception; It is also in charge of *recieving* signals from brain and using them to control the movement of your limbs. If you lose your spinal cord, good luck controlling your body.
 
-The spinal cord connects to the **brain stem**, which is the big super-highway between your body and your brain. Additionally, it plays a role in motor control for the head and regulating how alert/awake you are. 
+The spinal cord connects to the **brain stem**, which is the big super-highway between your body and your brain. Additionally, it plays a role in motor control for the head, regulating how alert/awake you are, and controlling basic life functions.
 
 The brain stem has 3 distinct parts: the **medulla oblongata**, the **pons** and the **midbrain**. The medulla oblongata controls vital basic life functions like digestion, breathing, and heart rate. The pons is in charge of conveying movement information from the "main brain" to the cerebellum. The midbrain handles most of the sensory and motor signals.
 

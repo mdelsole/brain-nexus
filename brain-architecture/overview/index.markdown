@@ -87,6 +87,12 @@ A great example is of one patient who was reading his favorite book in his left 
 
 # The Neuron
 
+The sophisticated cognitive abilities of humans depend on one simple concept: the ability to select from the stream of input signals which ones are important to the individual. The brain actively organizes perception, with some immediately transformed into a behavioral response and others stored in memory for future reference. This and all other abilities it enables is accmplished by the interconnectivity of neurons.
+
+Neurons are the fundamental basic unit of the brain. We each have around 100 billion of them, and at least 1000 different types. However, it's not so much the variety that matters, but rather their creation of **circuits** that enables complex functions. In other words, neurons of the same type can produce different actions because of the way they are connected in a circuit.
+
+
+
 # Genes
 
 # Conclusion

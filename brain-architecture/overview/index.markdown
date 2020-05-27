@@ -17,6 +17,8 @@ tags: []
 
 Welcome to the brain architecture section! Here, we will learn everything humans know about how our brain works.
 
+In this initial overview section, I will provide a broad overview of the key features of the brain. We'll discuss the central nervous system and its cells, along with the genes that give rise to our behavior.
+
 # The Brain
 
 The brain is an extremely large system. At its most basic level, it is made up of **neurons**. These are the basic computational unit of the brain. A neuron by itself is quite usless; only when it is connected to another neuron via **synapses** does it start to have functionality. The brain has over 10,000,000,000 of these neurons, each interacting with each other with about 10,000 synapses. That's over 1 trillion different connections! 
@@ -110,7 +112,7 @@ Neurons are the **signaling** units of the nervous system. They have three disti
 
 The **cell body**, sometimes called the *soma*, is the center of the cell. It contains the nucleus, which contains the genes of the cell and is where the cell's proteins are synthesized. Flowing into the cell body are **dendrites**, which are the main structure for receiving incoming signals from other neurons. Flowing out of the cell body is the **axon**. The axon usually extends some distance  from the cell body (from 0.1 mm up to 2 m) and delivers signals to other neurons. 
 
-A **synapse** is the connection from one neuron to another. They are made up of two parts: The *pre-synaptic* terminal, emerging from the ends of the axon, and the *post-synaptic* dendrite. The pre-synaptic neuron's axon sends a signal down the synaptic terminal, while the post-synaptic neuron's dendrites recieve that signal. The pre-synaptic neuron will send signals to many different post-synaptic neurons, just as the post-synaptic neuron will recieve signals from many different pre-synaptic neurons.
+A **synapse** is the connection from one neuron to another. They are made up of two parts: The *pre-synaptic* terminal, emerging from the ends of the axon, and the *post-synaptic* dendrite. The pre-synaptic neuron's axon sends a signal down the synaptic terminal, while the post-synaptic neuron's dendrites recieve that signal. They meet each other at a junction called the **synaptic cleft**. The pre-synaptic neuron will send signals to many different post-synaptic neurons, just as the post-synaptic neuron will recieve signals from many different pre-synaptic neurons.
 
 These electirc signals delivered between neurons are called **action potentials**. They are triggered near the base of the axon in an area called the *initial segment*, and propagate down the axon, being sent to all the connected post-synaptic neurons. 
 
@@ -118,6 +120,33 @@ Action potential is an all-or-nothing signal; it is a constant 100 mV, and eithe
 
 Action potentials are the key feature that allows the brain to receive and analyze information. The genius of the nervous system is that these signals can convey any type of information in a uniform way, from heat sensors to light waves. All information is converted into a universal form that the brain can analyze and interpret.
 
+Because our cognitive abilities rely so heavily on these action potentials, the speed at which they are conducted is highly important. To achieve high speed, axons are wrapped in an insulating sheath of fat called **myelin**.
+
+A key principle neurons have is that of **connectional specificity**. This states that neurons do not connect randomly with other neurons when forming networks. Each cell makes specific connections with certain post-synaptic targets.
+
+### Classes of Neurons
+
+There is one feature that most distinguishes one type of neuron from another: its **form**. Specifically, the number of process arising from the cell body. Using this, neurons can be classified into three larger groups: unipolar, bipolar, and multipolar. The difference arises in how many trunks, often called *processes*, the neurons have.
+
+**Unipolar** neurons are the simplest form. They have a single primary trunk that gives rise to many branches. One branch is the axon, and the other branches are the dendrites. In invertebrates like snails and worms, these are the most predominate cell. In vertebrates, they are mainly found in the *autonomic*  nerovus system (internal organs like heart and kidney).
+
+**Bipolar** neurons have an oval-shaped cell body that enables two distinct trunks: a dendritic trunk that recieves signals from the sensory receptors of the body, and an axon trunk that carries information toward the central nervous system. Bipolar neurons are mainly *sensory* neurons, like those in the retina and the olefactory epithelium (smelling place).
+
+The receptor neurons that signal pressure, touch, and pain to the spinal cord aren't technically bipolar cells, but rather *psuedo-unipolar* cells. They initially develop as bipolar cells, but the two trunks eventually fuse and become a single continuous structure. The axon splits into two branches, one going from the skin/muscle receptors and one going to the spinal cord.
+
+**Multipolar** neurons are the most predominate type in vertebrates (such as humans). When you think of neurons, you usually think of these. They have a single axon trunk, and many dendritic trunks emerging from various points around the cell body. They can vary widely in the extent of their denritic branches. A spinal motor neuron might have as few as 10,000 neuron inflowing connections, while a Purkinje cell of the cerebellum can have up to 1,000,000 inflowing connections.
+
+[Insert picture]
+
+Beyond their form, neurons can be classified into three major **functional** categories: sensory neurons, motor neurons, and interneurons. 
+
+**Sensory** neurons carry information from the body's sensory receptors (sometimes called peripheral sensors) into the nervous system, for both the purpose of perception and motor coordination. **Motor** neurons carry commands from the brain and spinal cord to the muscles. In general, we call sensory receptors flowing into the nervous system *afferents* and motor information flowing out of the nervous system *efferents*.
+
+**Interneurons** are the most prominant. They can further be divided into two sub-categories: *relay* and *local*. Relay, sometimes called projection, interneurons have extremely long axons that are meant for conveying signals over considerable distances, across different brain regions. Local interneurons have short axons and form connections with nearby neurons to form local circuits.
+
+If we wanted to keep going, we could subdivide all the classifications further, into location, size, density, etc. For example, retinal ganglion cells (interneurons) are classified into 13 types based on the size of their dendritic tree. However, further classification is not strictly necessary to understand the emergent behavior. Just knowing the 6 groups I mentioned above is sufficient to understanding how things work.
+
+## Glial cells
 
 # Genes
 

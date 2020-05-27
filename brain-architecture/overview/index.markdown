@@ -85,7 +85,7 @@ The discovery was made when studying patients whose **corpus callosum** (the maj
 
 A great example is of one patient who was reading his favorite book in his left hand. The left hand is controlled by the right hemisphere, which cannot read (logical processing is done by the left hemisphere). The right hemisphere found just looking at the book to be boring, and commanded the left hand to put the book away. Each hemisphere has a mind of its own.
 
-# The Neuron
+# Nervous System Cells
 
 The sophisticated cognitive abilities of humans depend on one simple concept: the ability to select from the stream of input signals which ones are important to the individual. The brain actively organizes perception, with some immediately transformed into a behavioral response and others stored in memory for future reference. This and all other abilities it enables is accmplished by the interconnectivity of neurons.
 
@@ -99,7 +99,7 @@ Obviously, with 100 billion neurons, it would be impossible to identify the func
 
 Throughout this guide, we will explore these three concepts and how they enable our cognitive abilities.
 
-# The Two Types of Nervous System Cells
+## The Two Types of Nervous System Cells
 
 There are two main types of cells in the nervous system: Nerve cells, called **neurons**, and glial cells, called **glia**.
 

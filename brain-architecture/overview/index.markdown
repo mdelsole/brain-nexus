@@ -91,6 +91,32 @@ The sophisticated cognitive abilities of humans depend on one simple concept: th
 
 Neurons are the fundamental basic unit of the brain. We each have around 100 billion of them, and at least 1000 different types. However, it's not so much the variety that matters, but rather their creation of **circuits** that enables complex functions. In other words, neurons of the same type can produce different actions because of the way they are connected in a circuit.
 
+Obviously, with 100 billion neurons, it would be impossible to identify the function of every individual neuron in the brain. Fortunately, there are just a few simple principles that give rise to the wide array of complex behavior we humans are capable of. It essentially boils down to three basic concepts:
+
+1. The structure and mechanisms of **individual neurons**
+2. The patterns of connectivity between neurons via **synapses**, and how they are modified by experience
+3. The emergent behavior created by the heirarchical **network** of interconnectivity between neurons and their synapses 
+
+Throughout this guide, we will explore these three concepts and how they enable our cognitive abilities.
+
+# The Two Types of Nervous System Cells
+
+There are two main types of cells in the nervous system: Nerve cells, called **neurons**, and glial cells, called **glia**.
+
+Neurons are the **signaling** units of the nervous system. They have three distinct parts: 
+1. The dendrites
+2. The cell body
+3. The axon 
+
+The **cell body**, sometimes called the *soma*, is the center of the cell. It contains the nucleus, which contains the genes of the cell and is where the cell's proteins are synthesized. Flowing into the cell body are **dendrites**, which are the main structure for receiving incoming signals from other neurons. Flowing out of the cell body is the **axon**. The axon usually extends some distance  from the cell body (from 0.1 mm up to 2 m) and delivers signals to other neurons. 
+
+A **synapse** is the connection from one neuron to another. They are made up of two parts: The *pre-synaptic* terminal, emerging from the ends of the axon, and the *post-synaptic* dendrite. The pre-synaptic neuron's axon sends a signal down the synaptic terminal, while the post-synaptic neuron's dendrites recieve that signal. The pre-synaptic neuron will send signals to many different post-synaptic neurons, just as the post-synaptic neuron will recieve signals from many different pre-synaptic neurons.
+
+These electirc signals delivered between neurons are called **action potentials**. They are triggered near the base of the axon in an area called the *initial segment*, and propagate down the axon, being sent to all the connected post-synaptic neurons. 
+
+Action potential is an all-or-nothing signal; it is a constant 100 mV, and either gets sent or doesn't. There is no variation in the value based on stronger stimulus strength. Instead, as we will see later on, it is the **rate** at which a neuron fires action potentials that determines the signal strength.
+
+Action potentials are the key feature that allows the brain to receive and analyze information. The genius of the nervous system is that these signals can convey any type of information in a uniform way, from heat sensors to light waves. All information is converted into a universal form that the brain can analyze and interpret.
 
 
 # Genes

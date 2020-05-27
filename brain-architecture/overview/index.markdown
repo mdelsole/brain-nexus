@@ -148,6 +148,24 @@ If we wanted to keep going, we could subdivide all the classifications further, 
 
 ### Glial cells
 
+Glial cells are much more numerous than nerve cells; there are anywhere from 2 to 10 more times glia than neurons in the vertebrate nervous system. Glia is greek for *glue*, but the name is a little misleading. Glia don't commonly hold neuorns together, but rather surround them, filling in the gaps between them. 
+
+Glia aren't electrically excitable, and are not directly involved in signaling. They're more of a *supporter* class of nervous system cells. They enable neurons to form correctly. It's not strictly necessary to know them if your goal is just to understand how the brain works, but for completeness sake, here we go.
+
+Like neurons, there are many different types of glia. Broadly, they can be divided into two major classes: microglia and macroglia. **Microglia** are immune system cells designed to present antigens during injury and infenction. **Macroglia** are the important ones; about 80% of all cells in the human brain are macroglia. 
+
+There are three main types of macroglia: oligodendrocytes, Schwann cells, and astrocytes. The names are...difficult to remember. Of the 80% macroglia cells in the human brain, around 50% are Oligodendrocytes, and 50% are Astrocytes. Schwann cells are used by sensory receptor neurons across the body.
+
+**Oligodendrocytes** and **Schwann cells** are small cells with few branches. They are responsible for forming the myelin sheath that insulates an axon. They do so like a spider spinning a web, tightly winding their membrane branches around the axon. Oligodendrocytes mainly handle the brain, while Schwann cells mainly handle sensory receptors. The myelin sheath is important, as it enhances the signal conductions and segregates the sensitive ion channels into isolated domains.
+
+**Astrocytes** have a large amount of processes (trunks), and look like stars (hence the 'astro-'). *Protopolasmic* astrocytes are found in gray matter, while *fibrous* astrocytes are found in white matter. We still aren't sure exactly what astrocytes are essential for, but they definitely support neurons in a few ways:
+1. They separate cells, insulating neuronal groups and synaptic connections from each other.
+2. They help regulate K+ concentration in the space between neurons. As we'll soon learn, K+ flows out of neurons when they fire. The astrocytes clean up the excess K+.
+3. They perform other housekeeping, such as taking up neurotransmitters.
+4. They help nourish surrounding neurons by releasing growth factors.
+
+Glial cells might not be the main workers, but their support is nonetheless valuable. We'll discuss in later chapters how they may even help regulate synapse development and function.
+
 # Genes
 
 # Conclusion

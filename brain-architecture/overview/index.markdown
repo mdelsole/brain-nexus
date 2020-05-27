@@ -146,7 +146,7 @@ Beyond their form, neurons can be classified into three major **functional** cat
 
 If we wanted to keep going, we could subdivide all the classifications further, into location, size, density, etc. For example, retinal ganglion cells (interneurons) are classified into 13 types based on the size of their dendritic tree. However, further classification is not strictly necessary to understand the emergent behavior. Just knowing the 6 groups I mentioned above is sufficient to understanding how things work.
 
-## Glial cells
+### Glial cells
 
 # Genes
 

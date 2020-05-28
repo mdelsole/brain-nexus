@@ -166,6 +166,14 @@ There are three main types of macroglia: oligodendrocytes, Schwann cells, and as
 
 Glial cells might not be the main workers, but their support is nonetheless valuable. We'll discuss in later chapters how they may even help regulate synapse development and function.
 
+## Nerve Cell Circuitry
+
+The behavioral function of every neuron is determined by its connections with other neurons. A single neuron can activate many target cells, a property called **divergence**, and can also recieve many cellular inputs, a property called **convergence**. 
+
+Divergence allows a single neuron to exert a wide and diverse influence. Convergence allows a neuron to integrate information from many sources. It also ensure that a motor neuron is activated only if a sufficient number of sensory neurons become activated together, effectively filtering out insignificant noise.
+
+Another important feature of the nervous system is that not all signals are excitatory. Many neurons produce **inhibitory** signals that reduce other neurons' ability to fire.
+
 # Genes
 
 # Conclusion

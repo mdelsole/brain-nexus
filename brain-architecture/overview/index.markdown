@@ -172,7 +172,17 @@ The behavioral function of every neuron is determined by its connections with ot
 
 Divergence allows a single neuron to exert a wide and diverse influence. Convergence allows a neuron to integrate information from many sources. It also ensure that a motor neuron is activated only if a sufficient number of sensory neurons become activated together, effectively filtering out insignificant noise.
 
-Another important feature of the nervous system is that not all signals are excitatory. Many neurons produce **inhibitory** signals that reduce other neurons' ability to fire.
+Another important feature of the nervous system is that not all signals are excitatory. Many neurons produce **inhibitory** signals that reduce other neurons' ability to fire. In nearly all cases, especially in the neocortex, inhibitory signals can only be produced by inhibitory neurons; a neuron can't produce both excitatory signals and inhibitory signals. 
+
+Inhibition can be either **feedforward** or **feedback**, both of which serve to balance the system. Feedfoward inihibtion *enhances* the effect of the active pathway by supreessing the activity of other pathways (usually pathways which excite opposing actions). The excitatory neuron connects to an inhibitory interneuron, in addition to the neurons it is trying to excite, inhibiting the pathway that the inhibitory interneuron is connected to.
+
+[insert picture]
+
+Feedback inhibition is a *self-regulating* mechanism. An excitatory neuron will connect to an inhibitory neuron, which in turn will connect back to the excitatory neuron in a loop, effectively making the excitatory neuron inhibit itself. The purpose is to dampen the activity and prevent it from exceeding a critical level. We'll talk more about this later, but without this, your muscles would rip themselves to shreds and you'd have constant seizures.
+
+## Neuron Signaling
+
+The primary function of a neuron is to produce a signal that travels to other neurons. Interestingly, regardless of cell size/shape, biochemistry, behavioral function, etc., almost all neurons can have their signaling described in the same way. There are 4 different signals that must be generated in sequence for the signaling process to be successful: an input signal, a trigger signal, a conducting signal, and an output signal.
 
 # Genes
 

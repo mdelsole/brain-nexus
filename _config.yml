@@ -2,7 +2,7 @@
 title: The Brain Nexus
 url: "https://mdelsole.github.io/brain-nexus"
 description: "A free resource for anything and everything about the human brain"
-baseurl: "https://mdelsole.github.io/brain-nexus/"
+baseurl: "https://mdelsole.github.io/brain-nexus"
 highlighter: rouge
 safe: true
 lsi: false

@@ -2,7 +2,7 @@
 layout: page
 title: Vision
 categories: []
-order: 15
+order: 14
 tags: []
 ---
 

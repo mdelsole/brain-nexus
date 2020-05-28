@@ -2,7 +2,7 @@
 layout: page
 title: Category Learning
 categories: []
-order: 15
+order: 17
 tags: []
 ---
 

@@ -8,7 +8,7 @@ date_gmt: '2011-05-07 10:45:02 +0200'
 categories: [section]
 tags: []
 ---
-Follow them in the right order !
+Follow them in any order
 
 {% assign sorted_pages = site.pages | sort:"order" %}
 {% for p in sorted_pages %}

@@ -9,4 +9,4 @@ tags: []
 * TOC
 {:toc}
 
-[here]({{ site.baseurl }}/paper-vault/high-level-cognition/category-learning/category-learning-in-the-brain/)
+[here]({{ site.baseurl }}/x/paper-vault/high-level-cognition/category-learning/category-learning-in-the-brain/)

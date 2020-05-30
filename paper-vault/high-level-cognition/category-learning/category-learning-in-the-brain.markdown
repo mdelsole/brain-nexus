@@ -18,7 +18,7 @@ The basal ganglia and medial temporal lobe interact either competitively or coop
 
 # Introduction
 
-Although our brains have the power to store *specific* experiences, it it not always an advantageous strategy. A brain limited to storing an independent record of each individual experience would not only require an extremely large amount of storage, but would bog us down with unnecessary details.
+Although our brains have the power to store *specific* experiences, it it not always the optimal strategy. A brain limited to storing an independent record of each individual experience would not only require an extremely large amount of storage, but would bog us down with unnecessary details.
 
 Instead, we have evolved to be able to detect the **higher-level structure** of experiences, able to pick out the *commonalities* across them that enable us to group experiences into meaningful categories and concepts. It is through this process that we are able to give our experiences meaning. 
 
@@ -26,3 +26,4 @@ This ability enables us to instantly recognize and respond appropriately to obje
 
 # Categories
 
+Categories are our knowledge of patterns. The grouping occurs at all levels of processing, from basic bottom-up visual inputs to abstract ideas such as peace and love.

@@ -101,9 +101,7 @@ Obviously, with 100 billion neurons, it would be impossible to identify the func
 
 Throughout this guide, we will explore these three concepts and how they enable our cognitive abilities.
 
-## The Two Types of Nervous System Cells
-
-There are two main types of cells in the nervous system: Nerve cells, called **neurons**, and glial cells, called **glia**.
+## The Neuron
 
 Neurons are the **signaling** units of the nervous system. They have three distinct parts: 
 1. The dendrites
@@ -146,7 +144,9 @@ Beyond their form, neurons can be classified into three major **functional** cat
 
 If we wanted to keep going, we could subdivide all the classifications further, into location, size, density, etc. For example, retinal ganglion cells (interneurons) are classified into 13 types based on the size of their dendritic tree. However, further classification is not strictly necessary to understand the emergent behavior. Just knowing the 6 groups I mentioned above is sufficient to understanding how things work.
 
-### Glial cells
+## Glial cells
+
+Neurons are the main work horse of the nervous system, but there are actually two main types of cells in the nervous system: Nerve cells, called **neurons**, and glial cells, called **glia**.
 
 Glial cells are much more numerous than nerve cells; there are anywhere from 2 to 10 more times glia than neurons in the vertebrate nervous system. Glia is greek for *glue*, but the name is a little misleading. Glia don't commonly hold neuorns together, but rather surround them, filling in the gaps between them. 
 

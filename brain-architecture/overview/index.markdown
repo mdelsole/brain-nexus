@@ -146,9 +146,9 @@ If we wanted to keep going, we could subdivide all the classifications further, 
 
 ## Glial cells
 
-Neurons are the main work horse of the nervous system, but there are actually two main types of cells in the nervous system: Nerve cells, called **neurons**, and glial cells, called **glia**.
+Neurons are the main work horse of the nervous system, but there are actually two main types of cells in the nervous system: Nerve cells, called **neurons**, and glial cells, called **glia**. 
 
-Glial cells are much more numerous than nerve cells; there are anywhere from 2 to 10 more times glia than neurons in the vertebrate nervous system. Glia is greek for *glue*, but the name is a little misleading. Glia don't commonly hold neuorns together, but rather surround them, filling in the gaps between them. 
+Glial cells were once thought to be much more numerous than nerve cells (up to 10 times the amount), but over time it has become more clear that they are much closer in numbers. Generally, the brain has about 85 billion neurons and 85 billion glia. Glia is greek for *glue*, but the name is a little misleading. Glia don't really hold neuorns together, but rather surround them, filling in the gaps between them. 
 
 Glia aren't electrically excitable, and are not directly involved in signaling. They're more of a *supporter* class of nervous system cells. They enable neurons to form correctly. It's not strictly necessary to know them if your goal is just to understand how the brain works, but for completeness sake, here we go.
 
@@ -183,6 +183,24 @@ Feedback inhibition is a *self-regulating* mechanism. An excitatory neuron will 
 ## Neuron Signaling
 
 The primary function of a neuron is to produce a signal that travels to other neurons. Interestingly, regardless of cell size/shape, biochemistry, behavioral function, etc., almost all neurons can have their signaling described in the same way. There are 4 different signals that must be generated in sequence for the signaling process to be successful: an input signal, a trigger signal, a conducting signal, and an output signal.
+
+In order to be able to generate these four signals, the model enruon must have 4 core components: a **receptive** component, an **integrative** component, a **long-range signaling** component, and a **secretory** component.
+
+The different types of signals generated in a neuron are determined by the intrinsic electrical proprerties of the **cell membrane**. In all cells, the cell membrane serves to isolate the cell from the outside world, allowing its internals to go about their own processes. Cells maintain a difference in the electric potential inside and outside of their membrane. 
+
+Neurons are no different. In neurons, this is called the **resting membrane potential**, and is the value of the internal voltage of a neuron when not active. It's a *relative* value: typically the voltage inside the cell is 65 mV more negative than the outside of the cell. In many, the outside voltage is 0, so the typical resting membrane potential of a neuron is -65 mV.
+
+The value is different for different nerve cells, usually ranging from -40 mV to -80 mV depending on their type. Muscle cells are the greatest at -90 mV, presumably to lower the chance of the wrong muscle cells accidentally becoming active. 
+
+This resting membrane potentil value results from two factors: **unequal distribution** of positively charged ions (Na+ and K+) on either side of the membrane, and the **selective permeability** of the membrane.
+
+Unequal distribution of positively charged ions Na+ and K+ is largely controlled by a membrane protein that actively pumps Na+ *out* of the cell and K+ back *into* it. This **Na+ K+ pump** keeps internal Na+ concentrations low (1/10 outside value) and K+ concentrations high (20x outside value). Your kidneys are in charge of maintaining the concetrations outside the cell.
+
+Cell membrane is mostly impermeable (ions can't flow in and out of it), but it is selectively permeable to K+. The membrane has proteins that form pores called **ion channels**, which allow certain ions to pass through. 
+
+Whent the cell is at rest, channels that are highly permeable to K+ become active. K+ ions **leak** out of these open channels, downing the ion's concentration, and by extension downing the membrane potential. As K+ ions exit the cell, they leave behind a cloud of negative charge on the inner surface of the membrane, adding to the membrane being more negative than the outside.
+
+If you're wondering why I bolded the word "leak", it's because that leak is one of three main determining forces of a neuron's membrane potential. More on that down the road though.
 
 # Genes
 

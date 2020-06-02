@@ -192,15 +192,25 @@ Neurons are no different. In neurons, this is called the **resting membrane pote
 
 The value is different for different nerve cells, usually ranging from -40 mV to -80 mV depending on their type. Muscle cells are the greatest at -90 mV, presumably to lower the chance of the wrong muscle cells accidentally becoming active. 
 
-This resting membrane potentil value results from two factors: **unequal distribution** of positively charged ions (Na+ and K+) on either side of the membrane, and the **selective permeability** of the membrane.
+This resting membrane potential value results from two factors: **unequal distribution** of positively charged ions (Na+ and K+) on either side of the membrane, and the **selective permeability** of the membrane.
 
 Unequal distribution of positively charged ions Na+ and K+ is largely controlled by a membrane protein that actively pumps Na+ *out* of the cell and K+ back *into* it. This **Na+ K+ pump** keeps internal Na+ concentrations low (1/10 outside value) and K+ concentrations high (20x outside value). Your kidneys are in charge of maintaining the concetrations outside the cell.
 
-Cell membrane is mostly impermeable (ions can't flow in and out of it), but it is selectively permeable to K+. The membrane has proteins that form pores called **ion channels**, which allow certain ions to pass through. 
-
-Whent the cell is at rest, channels that are highly permeable to K+ become active. K+ ions **leak** out of these open channels, downing the ion's concentration, and by extension downing the membrane potential. As K+ ions exit the cell, they leave behind a cloud of negative charge on the inner surface of the membrane, adding to the membrane being more negative than the outside.
+Cell membrane is mostly impermeable (ions can't flow in and out of it), but it is selectively permeable to K+. The membrane has proteins that form pores called **ion channels**, which allow certain ions to pass through. When the cell is at rest, channels that are highly permeable to K+ become active. K+ ions **leak** out of these open channels, downing the ion's concentration, and by extension downing the membrane potential. As K+ ions exit the cell, they leave behind a cloud of negative charge on the inner surface of the membrane, adding to the membrane being more negative than the outside.
 
 If you're wondering why I bolded the word "leak", it's because that leak is one of three main determining forces of a neuron's membrane potential. More on that down the road though.
+
+A neuron is "excitable" when its neuron membrane potential can be quickly and significantly altered. This change is the mechanism by which neurons signal. 
+
+Inputs to the neuron reduce the membrane potential, making it much more permeable to Na+ than K+. This influx of Na+ neutralizes the negative charge inside the cell and causes a breif explosive change in membrane potential to +40 mV. This change is called the **action potential** (i.e. the electrical potential is undergoing action). 
+
+It is conducted down the cell's axon to the axon terminal, where it can be used to communicate with other neurons and muscle cells. An action potential typically lasts about 1 ms, after which the membrane potential returns to its resting state. Neurons also produce local receptor and synaptic potentials that are not actively propagated and decay within just a few millimeters, but they are unimporant.
+
+The change in membrane potential that generates action potentials can be either a decrease or an increase from the resting potential. It is a *baseline* on which all the neuron's signaling occurs. A reduction is called **depolarization**. Depolarization enhances a cell's ability to generate an action potential, and thus is excitatory. An increase in membrane potential is called **hyperpolarization**. Hyperpolarization makes a cell less likely to generate an action potential and is therefore inhibitory.
+
+Remember, we're dealing with negative values here. A reduction actually means less negative, i.e. more positive (e.g. -65 mV to -55 mV). An increase means more negative. Hyperpolarized cells are least likely to fire since they have the most change required to fire, while depolarized cells are most likely to fire since they have the least change required to fire.
+
+# Neuron Input
 
 # Genes
 

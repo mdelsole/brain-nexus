@@ -159,7 +159,7 @@ There are three main types of macroglia: oligodendrocytes, Schwann cells, and as
 **Oligodendrocytes** and **Schwann cells** are small cells with few branches. They are responsible for forming the myelin sheath that insulates an axon. They do so like a spider spinning a web, tightly winding their membrane branches around the axon. Oligodendrocytes mainly handle the brain, while Schwann cells mainly handle sensory receptors. The myelin sheath is important, as it enhances the signal conductions and segregates the sensitive ion channels into isolated domains.
 
 **Astrocytes** have a large amount of processes (trunks), and look like stars (hence the 'astro-'). *Protopolasmic* astrocytes are found in gray matter, while *fibrous* astrocytes are found in white matter. We still aren't sure exactly what astrocytes are essential for, but they definitely support neurons in a few ways:
-1. They separate cells, insulating neuronal groups and synaptic connections from each other.
+1. They separate cells, insulating neuron groups and synaptic connections from each other.
 2. They help regulate K+ concentration in the space between neurons. As we'll soon learn, K+ flows out of neurons when they fire. The astrocytes clean up the excess K+.
 3. They perform other housekeeping, such as taking up neurotransmitters.
 4. They help nourish surrounding neurons by releasing growth factors.
@@ -184,7 +184,7 @@ Feedback inhibition is a *self-regulating* mechanism. An excitatory neuron will 
 
 The primary function of a neuron is to produce a signal that travels to other neurons. Interestingly, regardless of cell size/shape, biochemistry, behavioral function, etc., almost all neurons can have their signaling described in the same way. There are 4 different signals that must be generated in sequence for the signaling process to be successful: an input signal, a trigger signal, a conducting signal, and an output signal.
 
-In order to be able to generate these four signals, the model enruon must have 4 core components: a **receptive** component, an **integrative** component, a **long-range signaling** component, and a **secretory** component.
+In order to be able to generate these four signals, the model neuron must have 4 core components: a **receptive** component, an **integrative** component, a **long-range signaling** component, and a **secretory** component.
 
 The different types of signals generated in a neuron are determined by the intrinsic electrical proprerties of the **cell membrane**. In all cells, the cell membrane serves to isolate the cell from the outside world, allowing its internals to go about their own processes. Cells maintain a difference in the electric potential inside and outside of their membrane. 
 
@@ -210,8 +210,26 @@ The change in membrane potential that generates action potentials can be either 
 
 Remember, we're dealing with negative values here. A reduction actually means less negative, i.e. more positive (e.g. -65 mV to -55 mV). An increase means more negative. Hyperpolarized cells are least likely to fire since they have the most change required to fire, while depolarized cells are most likely to fire since they have the least change required to fire.
 
-# Neuron Input
+## Nerve Cell Input
 
+When neurons are at rest, no current flows, so the resting potential is the same throughout the cell. To become activated, a neuron needs current to flow into it.
+
+In sensory neurons, flow is typically initiated by a physical stimulus. The stimulus activates specialized receptor proteins at the receptive surface, triggering the neurons. Specific ion channels are opened in response, allowing the rapid influx of Na+ ions into the sensory neuron. This current caused by these ions changes the membrane potential, producing a local signal called the **receptor potential**.
+
+The amplitude and duration of the receptor potential depend on the intensity of the stimulus. Importantly, unlike the action potential which is all or nothing, receptor potentials are **graded**, having multiple levels of intensity. Most receptor potentials are excitatory (depolarizing), though inhibitory (hyperpolarizing) ones are found in the retina.
+
+The receptor potential is the first representation of the stimulus to be coded in the nervous system. However, this signal spreads *passively*, and doesn't travel more than 1 to 2 mm. To be carried to the rest of the nervous system, the signal must be amplified; it must cause the cell to *generate* an **action potential**. If the receptor potential is large enough, it triggers an action potential which is *actively* propagated to the central nervous system.
+
+Sensory neurons are most often connected to interneurons. The action potential of the sensory neuron produces a chain of events that results in an *input signal* to the interneuron. The action potential in the pre-synaptic terminal of the sensory neuron initiates the release of a chemical substance called a **neurotransmitter** into the synatic cleft (the junction where the pre-synaptic and post-synaptic terminals meet). After travelling across the cleft, the neurotransmitter binds to the receptor proteins in the post-synaptic membrane of the interneuron, opening ion channels. 
+
+The ensuing flow of current changes the membrane potential of the interneuron, a change called the **synaptic potential**. The pre-synaptic neuron sends the action potential, and the synaptic potential is how much of that action potential actually reached the post-synaptic neuron. We'll see later how it is modified by several factors, mainly the strength of the synapse itself. The synaptic potential can have either a depolarizing or hyperpolarizing effect on the cell, depending on the type of receptor molecule that is activated.
+
+Before moving on, let's summarize. A stimulus comes in (e.g. you touch a table). The stimulus is picked up by your sensory neurons, generating a *receptor potential*, which is a change in the membrane potential of your sensory neurons. If the receptor potential is big enough, it triggers an *action potential*. This action potential travels along the synapse to neurons connected to the sensory neuron. This action potential causes a change in the membrane potential of the post-synaptic neuron(s) called a *synaptic potential*. If the synaptic potential is large enough, it will cause the post-synaptic neuron to also fire an action potential, starting the chain of brain activity.
+
+While receptor and synaptic potentials are essentially the same thing (input causing a change in receiving neuron's membrane potential), we differentiate them because they have different mechanics of how the signal is generated and communicated. We'll discuss these mechanics in later sections.
+
+
+ 
 # Genes
 
 # Conclusion

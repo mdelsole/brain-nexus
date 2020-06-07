@@ -230,6 +230,8 @@ While receptor and synaptic potentials are essentially the same thing (input cau
 
 ## Action Potentials
  
+The action potential is an all-or-nothing signal. Stimuli below the certain **threshold** do not produce a signal, and all stimuli above the threshold produce signals of the same amplitude
+ 
 # Genes
 
 # Conclusion

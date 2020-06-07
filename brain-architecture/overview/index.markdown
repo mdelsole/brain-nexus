@@ -210,7 +210,7 @@ The change in membrane potential that generates action potentials can be either 
 
 Remember, we're dealing with negative values here. A reduction actually means less negative, i.e. more positive (e.g. -65 mV to -55 mV). An increase means more negative. Hyperpolarized cells are least likely to fire since they have the most change required to fire, while depolarized cells are most likely to fire since they have the least change required to fire.
 
-## Nerve Cell Input
+## Neuron Input
 
 When neurons are at rest, no current flows, so the resting potential is the same throughout the cell. To become activated, a neuron needs current to flow into it.
 
@@ -228,7 +228,7 @@ Before moving on, let's summarize. A stimulus comes in (e.g. you touch a table).
 
 While receptor and synaptic potentials are essentially the same thing (input causing a change in receiving neuron's membrane potential), we differentiate them because they have different mechanics of how the signal is generated and communicated. We'll discuss these mechanics in later sections.
 
-
+## Action Potentials
  
 # Genes
 

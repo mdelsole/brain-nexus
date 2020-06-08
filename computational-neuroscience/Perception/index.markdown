@@ -33,4 +33,16 @@ In the superficial layers of V1, there are V1 complex cells. These are combinati
 
 # V1 Receptive Fields
 
- 
+Oriented edges are present in every image, no matter how different the images are.
+
+Every V1 neuron recieves activity from its neighbors, with closest neighbors impacting the strongest. If one of the neighbors gets activated, the V1 neuron is more likely to get activated since it gets that extra excitation. The neighborhood relationship creates the pinwheel topography; weaker lateral connections makes much less organized topography. Each neuron just learns some random orientation coding.
+
+# Invariant Object Recognition
+
+The new machine learning object recognition models take from the old idea of Fukishima's neocognitron: Hierarchy of increasing **feature complexity** and **spatial invariance**.
+
+Neurons in V2 have greater feature complexity by recongizing combinations of V1 (intersections, junctions of oriented edges), but they also recognize them over a larger range of different locations and angles/sizes. It's an incremental build-up of invariance. By the time you get to V4, you're recognizing more complex feature coding and more invariance in the features themselves. 
+
+By doing this incrementally, you avoid the problem of binding errors; you don't want lower level features that don't actually relate to each other to be connected.
+
+As a result of the accumulated effect, the affective receptive field that can activate a higher-level neuron is very large

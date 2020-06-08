@@ -13,7 +13,7 @@ tags: []
 * TOC
 {:toc}
 
-Perception is our window into reality.
+Perception is our window into reality. This section isn't really done, right now it's just some notes.
 
 # Biology of vision
 
@@ -45,4 +45,11 @@ Neurons in V2 have greater feature complexity by recongizing combinations of V1 
 
 By doing this incrementally, you avoid the problem of binding errors; you don't want lower level features that don't actually relate to each other to be connected.
 
-As a result of the accumulated effect, the affective receptive field that can activate a higher-level neuron is very large
+As a result of the accumulated effect, the affective receptive field that can activate a higher-level neuron is very large.
+
+We backpropagate the IT error signal into V4 to adjust the earlier lower-level representations.
+
+A V4 neuron recieves signals from a set area of V1 neurons; in the simulation it is a 4x4 block pool. The x-axis is the orientation and the y-axis is the different types of features (polarity, end-stopping, etc.) The topography encourages the overall solution of invariance. 
+
+## Activation-Based Receptive Fields
+

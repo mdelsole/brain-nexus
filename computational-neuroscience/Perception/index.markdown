@@ -49,7 +49,24 @@ As a result of the accumulated effect, the affective receptive field that can ac
 
 We backpropagate the IT error signal into V4 to adjust the earlier lower-level representations.
 
-A V4 neuron recieves signals from a set area of V1 neurons; in the simulation it is a 4x4 block pool. The x-axis is the orientation and the y-axis is the different types of features (polarity, end-stopping, etc.) The topography encourages the overall solution of invariance. 
+A V4 neuron recieves signals from a set area of V1 neurons; it is a 4x4 block of pools, which half-overlap with the V4 pool next to it. Each pool is one orientation. The x-axis is the orientation and the y-axis is the different types of features (polarity, end-stopping, etc.) The topography encourages the overall solution of invariance. 
 
 ## Activation-Based Receptive Fields
 
+Similar to reverse correlation and spike-triggered averaging, we use something called an activation-based receptive field. It records the pattern of activity present when in an individual neuron is active. It's a weighted-average of how active a neuron is, from 0 to 1. We weight the corresponding pattern of activity in each of the different layers, as well as in the *input image* as a function of the activity of the individual neuron. 
+
+This allows us to reconstruct what patterns in general tended to be present when these neurons were active, filtering out the other patterns when they weren't active. This is how we see what exactly the neurons come to represent. Because we record the activity of the input image, we can see the patters of input that activate these neurons.
+
+The blur is evidence of spatial invariance; it's representing it across a range of spatial features.
+
+## Attentional Mechanisms
+
+Our ability to recognize backgrounds and our ability to filter out backgrounds are two different abilities. Many visual recognition models attempt to train with cluttered backgrounds. However, our ability to filter out backgrounds is the tied to our attentional mechanisms, rather than our ability to capture spatial invariance. 
+
+These models end up learning texture-based representations as the way of discriminating objects that don't really match how the brain learns objects. They don't recognize shapes in the way the brain does. The learn the texture and repeated patterns, and don't have the solution to the invariance problem.
+
+Take the classic example of "Where's Waldo?" We need to be able to focus attention on specific spatial positions. There's many distracting stimuli with similar features, and the only way we have to isolate the features of Waldo is by focusing our attention.
+
+We have a zoomable attentional field that can focus wide or small.  
+
+We have two pathways: One for visual object recognition, and one for "where" visual objects are. This "where" pathway also functions as a spatial processing pathway. Top-down activation from the spatial pathway can activate neurons in V1, thereby activating the proper neurons in the object recogition pathway.

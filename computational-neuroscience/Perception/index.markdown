@@ -70,3 +70,5 @@ Take the classic example of "Where's Waldo?" We need to be able to focus attenti
 We have a zoomable attentional field that can focus wide or small.  
 
 We have two pathways: One for visual object recognition, and one for "where" visual objects are. This "where" pathway also functions as a spatial processing pathway. Top-down activation from the spatial pathway can activate neurons in V1, thereby activating the proper neurons in the object recogition pathway.
+
+Spatial attention can allow you to focus on a single object with multiple objects present in the scene. The area with more bottom-up activity will capture the spatial attention (activating it over another object), which will then feedback and make that object stand out

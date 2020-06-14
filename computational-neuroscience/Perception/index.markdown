@@ -75,4 +75,8 @@ Spatial attention can allow you to focus on a single object with multiple object
 
 Attention is just feedback neural activity plus inhibitory competition.
 
+# Depth
 
+Depth processing is missing from most models.
+
+ 

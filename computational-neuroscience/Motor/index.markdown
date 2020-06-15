@@ -56,7 +56,7 @@ The cerebellum, unlike the neocortex, is a feed-forward circuit. Input (PN) -> g
 
 When an error occurs, it is associated with the inputs that happened about 100 ms earlier. Importantly, the purkinje cells try to anticipate the error before it happens, and so the pattern that gets corrected "100 ms prior" is the one happening in the present. The purkinje cells try to anticipate an error, then correct the error before it happens using the error signals.
 
-There's a motor plan of what we want the system to end up in produced by the cortex, a target for the overall muscle position we're trying the achieve. The details are tuned and shaped by the cerebellum, while the plan is maintained by the cortex.
+There's a motor plan of 'what we want the system to end up in' produced by the cortex, a target for the overall muscle position we're trying the achieve. The details are tuned and shaped by the cerebellum, while the plan is maintained by the cortex.
 
 Each granule cell becomes tuned to a particular random muscle state represented by the cortex.
 
@@ -67,5 +67,7 @@ The purkinje cells take in a ton of granule cells, recollapsing the information 
 In the cerebellum, learning is mostly a decrease in weights rather than an increase. Additionally, it's mostly disinhibiting rather than exciting.
 
 ## Summary:
-Order of operartions:
+Order of operations:
 Mossy fiber (sensory inputs) -> Granule cells (high-dimensional encoding, pattern separation) -> Purkinje cells -> Motor outputs
+
+The cerebellum is a feedforward circuit. It receives processed sensory input from the cortex via mossy fibers. These activate granule cells, which are an extremely large set of cells the perform pattern separation, blowing up the input into high-dimensionality and randomly grabbing a non-overlapping subset. The granule cells feed into purkinje cells, which collapse the dimensionality back down to a reasonable level and trigger specific motor neurons.

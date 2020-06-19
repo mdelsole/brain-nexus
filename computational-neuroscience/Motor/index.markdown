@@ -81,3 +81,43 @@ You become consciously aware of the basal ganglia's decision 300 ms after the fa
 The basal ganglia has to competing pathways: "Go" and "no-go". There are separate neurons in the no-go and go pathways.
 
 The dopamine system is wired so that it reinforces the "go" pathway. If you make a go decision and the outcome is positive, you get a positive dopamine signal and reinforce the go pathway. A negative dopamine signal (decrease) reinforces the "no-go" pathway.
+
+## Action Selection
+
+There are 5 core loops of the basal ganglia. All of them are essentially the same, but control action selection of 5 different areas.
+
+The loops have 3 parts: One in the cortex, one in the striatum, and one in the thalamus.
+
+The first 2 loops are centered around actions
+
+**Loop 1: Motor**. Interestingly, the motor loop is with the secondary motor area, not the primary motor area. It's not interested in the fine grain detail, just "what should I do".
+
+**Loop 2: Occulumotor** (where you're going to look)
+
+The second 3 loops are centered around goals.
+
+**Loop 3: Prefrontal** (plans). The most expanded part in humans
+
+**Loop 4: Orbitalfrontal** (value, outcomes). Encodes how valuable things are
+
+**Loop 5: Cingulate** (utility). Intermediating between desired outcomes of the orbitofrontal cortex and the plans, the ways of getting those outcomes. Considers the costs and feasability of the plan vs. the outcome.
+
+Motor/Occulumotor <-|-> Prefrontal <--> Cingulate <--> Orbitalfrontal
+
+Many parts of your decision making are informed by subcortical inputs. In fact the medial frontal area of the cortex has a whole map of values. Its subcortical regions represent many different factors:
+
+* SMA: Proximal actions (next few secs)
+* pdACC: Associated values
+* rdACC: Associated values, integrates vm inputs
+* dlPFC: Broad action plans, strategies
+* pgACC: Arousal, drive
+* sgACC: Active avoidance (negative outcomes)
+* mOFC: Active approach (positive outcomes); appetitive, consumative
+    * Integrated with IOFC taste areas (abstract "I like this taste") 
+* rmPFC: Episodic affective context <--> hippocampus, considering past and future alternatives
+* IOFC: Sensory-driven values ("what" "I like")
+* vlPFC: WM and control over sensory ("what")
+
+In general, the PFC areas encode what plan is going to be taken, and the ACC area it is connected to enocodes the effort assoicated with that and whether it is worth it
+
+## The BG Disinhibitory Circuit

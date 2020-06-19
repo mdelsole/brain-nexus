@@ -71,3 +71,13 @@ Order of operations:
 Mossy fiber (sensory inputs) -> Granule cells (high-dimensional encoding, pattern separation) -> Purkinje cells -> Motor outputs
 
 The cerebellum is a feedforward circuit. It receives processed sensory input from the cortex via mossy fibers. These activate granule cells, which are an extremely large set of cells the perform pattern separation, blowing up the input into high-dimensionality and randomly grabbing a non-overlapping subset. The granule cells feed into purkinje cells, which collapse the dimensionality back down to a reasonable level and trigger specific motor neurons.
+
+# Basal Ganglia
+
+The basal ganglia acts as a wall, blocking possible actions that the cerebral cortex is coming up with of things we could do, picking only one (usually the most rewarding). It's an integrated system; you need the cortex to come up with the possible actions, and the basal ganglia to choose.
+
+You become consciously aware of the basal ganglia's decision 300 ms after the fact. This is what we mean when we say you become aware of the decision after it's already been made. It is still "you" making the decision, just a different part of you. The basal ganglia is feedforward, not having a recurrent component that we think is critical for consciousness.
+
+The basal ganglia has to competing pathways: "Go" and "no-go". There are separate neurons in the no-go and go pathways.
+
+The dopamine system is wired so that it reinforces the "go" pathway. If you make a go decision and the outcome is positive, you get a positive dopamine signal and reinforce the go pathway. A negative dopamine signal (decrease) reinforces the "no-go" pathway.

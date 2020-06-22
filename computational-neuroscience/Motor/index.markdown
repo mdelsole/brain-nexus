@@ -121,3 +121,51 @@ Many parts of your decision making are informed by subcortical inputs. In fact t
 In general, the PFC areas encode what plan is going to be taken, and the ACC area it is connected to enocodes the effort assoicated with that and whether it is worth it
 
 ## The BG Disinhibitory Circuit
+
+The loop that the BG acts through is rather complicated due to the fact it is a disinhibitory cicuit.
+
+[insert picture]
+
+The high-level picture is:
+
+1. Have a plan in the frontal cortex
+
+2. Frontal cortex activates one of two pathways in the Striatum:
+      * **Go (direct) pathway**, named direct because it directly inhibits the GPi
+      * **NoGo (indirect pathway)**, named indirect because it connects to the GPe which connects to the GPi.
+
+GPi neurons are tonically active; their neutral state is firing. The GPi neurons are **inhibitory neurons** connected to the thalamus, so their constant firing inhibits the thalamus.
+
+The Go pathway inhibits the GPi neurons, surpressing their firing. This in turn **disinhibits** the thalamus, allowing it to become active. It's a three-link chain. Go -> GPi -> Thalamus.
+
+The NoGo pathway connects to the GPe, the activation of which excites the inhibitory GPi neurons, thereby further inhibiting the thalamus, making sure it doesn't get activated.
+
+3. The Thalamus connects to the frontal cortex in a bidirectional manner, the start of "this action gets to take over and drive behavior. It connects back to the same cortex area that drove the activation, so it's a closed loop.
+
+## Dopamine Modulation
+
+Dopamine drives learning in the BG. Dopamine neurons, which are located in the SNc, sends dopamine projections into the striatum (where the Go and NoGo pathways are). 
+
+There are **D1** receptors on the neurons of the Go pathway and **D2** receptors on the neurons of the NoGo pathway. Dopamine has *opposite* effects on each of these receptors. 
+
+If you get a burst of dopamine, the result of an *unexpected* positive outcome, that results in a net excitation of Go pathway and an increase in the *synaptic connections* between the frotnal cortex and the Go pathway. It makes it more likely that next time you'll reach that Go decision.
+
+If you get a dip of dopamine, the result of a negative outcome, that results in a net excitation of NoGo pathway, and similar principles are applied.
+
+Importantly, we actually have to take the action for the dopamine to get released.
+
+## What is Dopamine?
+
+Dopamine is not about pleasure, contrary to popular belief. It's about learning.
+
+If you don't have any reason to expect a reward and you receive a a reward, there is a burst of dopamine.
+
+If you get a conditioned stimulus, the dopamine fires. It *doesn't* fire when you actually get the reward; the dopamine predicts the reward at the point of the cs. If no reward shows up, there is a dopamine dip.
+
+When you know what's going to happen, expecting rewards, you don't get your dopamine anymore. If your expectations are high, you can really only be disappointed.
+
+These bursts and dips are the ones that drive the Go and NoGo pathways in the striatum.
+
+## Temporal Differences of Dopamine
+
+The learning of dopamine is basically just error-driven learning

@@ -39,3 +39,24 @@ Sensory Input -> Sensory Memory --(attention)-> STM --(encoding)-> LTM
     * Hippocampus stores episodic memories, but the knowledge is out there in your cortex
     * Loses info from interference 
     
+## Memory in the Brain
+
+The brain IS memory. Memory is located in every single synapse in the brain. This is one of the main differences between brains and computers: neurons have the processing and the memory in the same place, the connections between the neurons. It's not a separate thing like it is in computers.
+
+There's as many different kinds of memory as there are neurons and synapses and brain areas.
+
+Sensory memory is just neural firing in the sensory brain. Short-term memory is neural firing in higher level brain areas that represent the specific thing you're remembering. Long-term memory is everywhere; it's the sum of all the information stored in your synaptic weights. There's no "grandmother cell" for every memory, it's just synaptic weight changes
+
+We're consciously aware of things from our temporal lobe more so than from our parietal lobe due to the temporal lobe housing things that can be easily described by language (in addition to housing language itself).
+
+Tpyes of Memory:
+* Episodic memory: events, facts, etc.
+      * Hippocampus
+* Familiarity-based recognition
+      * Perirhinal cortex
+* Weight-based priming
+      * Subconscious, can be very long-lasting
+* Weight-based priming
+      * Also subconscious, but transient
+
+# Long-Term Memory

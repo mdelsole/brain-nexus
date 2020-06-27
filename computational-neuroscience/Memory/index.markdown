@@ -59,4 +59,17 @@ Tpyes of Memory:
 * Weight-based priming
       * Also subconscious, but transient
 
-# Long-Term Memory
+## Long-Term Memory
+
+In the classic model, there are two types of long-term memory:
+
+* Explicit (declarative)  memory: Conscious
+   * Episodic memory (personal experience)
+   * Semantic memory (facts about the world)
+* Implicit memory: Not conscious
+   * Procedural memory (how to do things)
+   * Repetition (improvement from exposure)
+   * Priming, conditioning 
+   
+While this model is intuitive, it's very egocentric. It's another one of these psycology models made be people who don't have a deep understanding of the brain and beleive consciousness is all there is.
+

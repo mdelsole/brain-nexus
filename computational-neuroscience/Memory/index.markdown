@@ -73,3 +73,24 @@ In the classic model, there are two types of long-term memory:
    
 While this model is intuitive, it's very egocentric. It's another one of these psycology models made be people who don't have a deep understanding of the brain and beleive consciousness is all there is.
 
+## Episodic Memory
+
+Episodic memory is autobiographical memory (life events) and arbitrary new memories (e.g. facts you learn in class). 
+
+If for aribitrary new memories there is more than one pairing, interference can happen. As you start to learn items on the A-C pairing list, you see a systematic amount of interference on the A-B list.
+
+Standard neural networks suffer catastrophic interference, meaning as A-C list is learnt the A-B list is completely forgotten. Parameters need to be changed to fix it.
+
+The fundamental problem is that the same neurons and same synapses are getting re-used to learn about the A-C items as were used to learn the A-B items. The A-B knowledge, stored in the synaptic weights, are getting overwritten. Interference is caused by re-use and overwriting of the old synapses.
+
+The question becomes how do we make the network use different neurons and synapses for new memories? By having fewer active neurons, like we saw in the cerebellum. We could increase the amount of inhibition. 
+
+Really we want to encourage the network to use different neurons. We can increase the strength of the neural pathway, but more importantly we can increase the size of the hidden layer.
+
+Overall solution: Give plenty of room for the network to use different neurons. Increase the size of the hidden layer, increases the sparsity of the neurons that become active.
+
+## The Hippocampus
+
+The hippocampus is the system in charge of our episodic memories.
+
+How does the hippocampus solve the catostrophic interference problem?

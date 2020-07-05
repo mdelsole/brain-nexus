@@ -94,3 +94,20 @@ Overall solution: Give plenty of room for the network to use different neurons. 
 The hippocampus is the system in charge of our episodic memories.
 
 How does the hippocampus solve the catostrophic interference problem?
+
+The hippocampus has three main subsections: Dentate gyrus (DG), CA3, and CA1. All three of these subsections get their input from the **entorhinal cortex**.
+
+The parietal cortex (dorsal "where" stream) feeds into the parahippo cortex. The IT cortex (ventral "what" stream) feeds into the perirhinal cortex. Both the parahippo and the perirhinal cortex feed bidirectionally into the entorhinal cortex, giving the input to the hippocampus.
+
+The entorhinal cortex feeds into all three subsections of of the hippocampus (impacting memory encoding), but there is a main flow of information. Information enters the DG, where **pattern separation** occurs. The DG feeds uni-directionally into CA3, where **pattern completion** happens. CA3 also feeds back into itself. CA3 feeds uni-directionally into CA1.
+
+[Insert picture]
+
+The key part is the completed pattern in CA1 is able to be unpacked into the corresponding cortical neurons. The DG has the job of separating the memory into unique neurons. The CA3 has the job of storing what's basically a hashcode. CA1 has the job of unpacking that memory into corresponding cortical neurons when recall is needed.
+
+CA1 also connects to both the entorhinal cortex and subiculum, which connects it to subcortical regions tying emotion to the memory.
+
+Sparse firing prevents interference. CA3 has very sparse firing, compared to the entorhinal cortex which has dense firing. People equate this sparse firing to place cells, but in the hippocampus where the firing happens is almost entirely random and does not correspond to spatial locations. They're memories, not maps.
+
+
+

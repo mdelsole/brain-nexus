@@ -230,7 +230,15 @@ While receptor and synaptic potentials are essentially the same thing (input cau
 
 ## Action Potentials
  
-The action potential is an all-or-nothing signal. Stimuli below the certain **threshold** do not produce a signal, and all stimuli above the threshold produce signals of the same amplitude
+The action potential is an all-or-nothing signal. Stimuli below the certain **threshold** do not produce a signal, and all stimuli above the threshold produce signals of the *same amplitude*. Even though the stimuli may vary in intensity and duration, the amplitude and duration of the action potential are pretty much the same. 
+
+Unlike receptor and synaptic potentials, which spread passively and decrease gradually, action potentials do not decay as they travel along the axon to their target. This is because it is *peridocially regenerated*. The distance an action potential travels can be as far as 2 m, and can go as fast as 100 m/s.
+
+The remarkable feature of action potentials is that they are nearly all the same, varying only subtly from one nerve cell to another. Action potentials carried into the nervous system by sensory axons are often indistinguishable from those carried out of the nervous system to the muscles by motor axons.
+
+If all action potentials are the same, how do they communicate different stimuli intensities? There are two features of the action potential that convey information: the **number** of action potentials, and the **time intervals** between them. All signals are much alike, whether the message is destined to arouse the sensation of light, of tough, or of pain. What's important is their **frequency**. If they signals are crowded together, the sensation is intense. If they are separated by long intervals, the sensation is feeble. What determines the intensity of sensation or speed of muscle is their frequency. By extension, the duration of the sensation or movement is determined by the time period over which the action potentials are generated.
+
+In addtion to the frequency, the **pattern** of action potentials can also convey important information. For example, some neurons are not silent in the absence of stimulation, but are spontaneously active. Some spontaneoulsy active cells fire action potentials regularly (called beating neurons). Other neurons fire in brief bursts (called bursting neurons).
  
 # Genes
 

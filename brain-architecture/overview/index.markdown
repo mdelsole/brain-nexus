@@ -243,6 +243,20 @@ In addtion to the frequency, the **pattern** of action potentials can also conve
 An even bigger difference can be seen with inhibitory signals. Inhibitory inputs have little information value when they are input to a silent cell. However, in spontaneously active cells, inhibition can have a very powerful sculpting role. The inhibitory signal establishes periods of silence in otherwise constant activity. Through this, inhibition can produce a complex pattern of alternating firing and silence. These subtle differences in firing patterns have functional consequences for the information transfer between neurons, which we will discuss in later sections.
 
 Still, you may be asking, if all action potentials are nearly the same, how can they carry the wide variety of information that we need in our every-day lives? The answer is one of the most important organizational principles in the brain: Pathways of connected neurons, not individual neurons convey the information. Interconnected neurons form anatomically and functionally distinct pathways. It's similar to how our computers, which can do everything from playing movies to accessing the internet, only have one fundamental signal: 1's and 0's. In the same way a computer's functionality is made from combining those 1's and 0's in many different ways, our brain's functionality is made from combining those action potentials in many different ways through the vast web of synaptic connections.
+
+## Neuron Differences: The Molecular Level
+
+The model of neural signaling that has been layed out here is a simplification. It applies to most neurons, but there are some important variations. For example, some neurons do not generate action potentials. These are typically local interneurons without a conductive component; they have no axon (or such a short one that regeneration of the signal is not required). In these neurons, the input signals are summed and spread passively to the presynaptic temrinal where neraby neurotransmitter is released. Spontaneously active neurons do not require sensory or synaptic inputs to fire, because they have a special class of ion channels that permit Na+ current to flow even in the absence of excitatory synapitic input.
+
+Even cells that are similar morphologically can differ importantly in molecular details. For exmaple, they can have different combinations of ion channels. We'll see in later chapters that different ion channels provide neurons **variance** in their properties:   their thresholds, excitability, and firing patterns. By extension, neurons with different ion channels can encode synaptic potentials into different firing patterns, transforming the information.
+
+Neurons also differ in the chemical substances they use as transmitters, and in the receptors that receive transmitters from other neurons. Many drugs act on the brain by **modifying** the actions of specific chemical transmitters and receptors.
+
+Because of physiological differences among neurons, a disease may affect one type of neuron and not others. For example, certain diseases strike only motor neurons (e.g. polio), whereas others strike mostly sensory neurons (e.g. syphillis). Parkinsons, a disorder that causes loss of *voluntary* movement, is a disease that strikes a small population of interneurons that use dopamine as a neurotransmitter. Some diseases are even more slective, targeting only a specific part of the neuron such as their cell body or axon. Because the nervous system has so many cell types and variation at the molecular level, it is susceptible to a wider variety of diseases than any other organ system of the body. 
+
+Despite the differences among neurons, the basic mechanics of electrical signaling are surprisingly similar. It makes understanding the molecular mechanisms of singaling much easier, as we really only need to understand it once to apply it everwhere.
+
+## Neural Networks: Parallel Processing
  
 # Genes
 

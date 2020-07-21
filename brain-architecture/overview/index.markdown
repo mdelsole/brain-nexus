@@ -271,6 +271,20 @@ The importance of abundant, highly-specific parallel connections has long been r
 Neural networks capture very well the highly recurrent architecture of most actual neural circuits, as well as the ability of the brain to function in the absence of specific sesnory input from outside the body (like we do in thinking and sleep). We will discuss neural networks in the last sections of this guide, and dive much deeper in the "Computational Neuroscience" guide.
 
 What makes the brain a remarkable information processor is not the complexity of its neurons, but the fact it has many elements interconnected in a variety of complex ways.
+
+## Synapses: Modified by Experience
+
+Possibly the most important feature of our brain is that neural connections can be modified by experience. Most learning results in changes that last for years, but even simple connections like reflexes can be modified briefly. But if behavior is learned, an interesting question arises: How can behavior be modified if the brain is wired so precisely. How can changes occur when the connections between neurons are set during early development?
+
+The answer was first proposed by Ramon y Cajal in the 1900's, and formalized by Jerzy Konorski: An answer called the **plasticity hypothesis**:
+
+* "The presence of a stimulus leads to two kinds of changes in the brain. The first property comes as neurons *react* to the incoming impulse, known as *excitability*. The changes arising from this are **changes due to excitability**. The second property is from when certain permanent functional transformations arise as a result of appropriate stimuli or their combination. This property is called **plasticity**, referring to the plastic changes that occur."
+
+To put it simply, there is functional plasticity at the chemical synapses; Changes in synaptic strength (increases and decreases in synaptic effecitveness) occur frequently. Synapses often have a remarkable capacity for short-term physiological changes (lasting seconds to hours) that increase or decrease synaptic effectiveness. Long-term changes, lasting sometimes days, can give rise to further physiological changes that lead to actual anatomical alterations such as pruning of pre-existing synapses and even the growth of new ones.
+
+We will see in later chapters that the chemical synapses are functionally, and by extension anatomically, modified through experience and learning throughout our lives as much as they are during early development. 
+
+**Functional alterations** and **physiological changes** are typically **short-term** and result in chagnes in the effectiveness of existing synaptic connections. **Anatomical alterations** are typically **long-term** and consist of the growth of new synaptic connections between neurons. It is this functional plasticity of neurons that gives each of us our individuality.
  
 # Genes
 

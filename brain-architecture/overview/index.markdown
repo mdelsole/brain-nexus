@@ -288,6 +288,14 @@ We will see in later chapters that the chemical synapses are functionally, and b
  
 # Genes
 
+All behaviors are shaped by the interplay between **genes** and the **environment**. The most stereotypical behaviors of simple animals are molded by the enivonment. The highly evolved behviors of humans are determined by the innate properties specified in their genes.
+
+Genes do not control behanvior directly, but the RNAs and proteins encoded by genes act at different times and at many levels to affect the brain greatly. Genes specify the developmental programs that assemble the brain, and are essential to making the properties of neurons and synapses that allow for neural circuits to function. Genes that have been stably inherited over generations create the machinery that allows new experiences to change the brain during learning.
+
+In this chapter, we'll learn how genes contribute to behavior.
+
+Recent progress has revealed the genetic basis of some developmental and psychiatric disorders, and holds the promise of future understanding.
+
 # Conclusion
 
 # Citations

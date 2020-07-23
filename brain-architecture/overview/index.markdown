@@ -87,7 +87,7 @@ The discovery was made when studying patients whose **corpus callosum** (the maj
 
 A great example is of one patient who was reading his favorite book in his left hand. The left hand is controlled by the right hemisphere, which cannot read (logical processing is done by the left hemisphere). The right hemisphere found just looking at the book to be boring, and commanded the left hand to put the book away. Each hemisphere has a mind of its own.
 
-# Nervous System Cells
+# Neurons
 
 The sophisticated cognitive abilities of humans depend on one simple concept: the ability to select from the stream of input signals which ones are important to the individual. The brain actively organizes perception, with some immediately transformed into a behavioral response and others stored in memory for future reference. This and all other abilities it enables is accmplished by the interconnectivity of neurons.
 
@@ -166,7 +166,7 @@ There are three main types of macroglia: oligodendrocytes, Schwann cells, and as
 
 Glial cells might not be the main workers, but their support is nonetheless valuable. We'll discuss in later chapters how they may even help regulate synapse development and function.
 
-## Nerve Cell Circuitry
+## Neuron Circuitry
 
 The behavioral function of every neuron is determined by its connections with other neurons. A single neuron can activate many target cells, a property called **divergence**, and can also recieve many cellular inputs, a property called **convergence**. 
 

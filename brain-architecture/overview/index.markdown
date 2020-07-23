@@ -324,6 +324,14 @@ Although genes specify the initila development and properties of the brain, the 
 
 ## Chromosomes
 
+The genes in a cell are arranged in an orderly fashion on long, linear stretches of DNA called chromosomes. Each gene in the human genome is located at a characteristic position on a specific chromosom. This genetic "address" can be used to associate biological traits with a gene's effects. 
+
+Most multicellular organisms are **diploid**, meaning every cell in the human body carries two complete sets of chromosomes, one from the mother and one from the father. Humans have about 25,000 genes, but only 46 chromosomes. 44 of these (22 pairs) are autosomes (genderless), and 2 (1 pair) are sex chromosomes. Each parent supplies one copy of each autosome to the child. If the sex chromosome is XY male, the X comes from the mother and the Y comes from the father. Because the X is gotten from the mother, genetic diseases that only happen in males can be passed from mother to son.
+
+In addition to genes on the chromosomes, a small number of the organism's genes are transmitted through mitochondria which carry out metabolic processes. Mitochondira in all children come from the ovum, and therfore from the mother to child. Certain disorders, including mental retardation, can come from mutations to the mitochondria DNA
+
+## Genotypes and Phenotypes
+
 
 
 # Conclusion

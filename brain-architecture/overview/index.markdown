@@ -332,7 +332,19 @@ In addition to genes on the chromosomes, a small number of the organism's genes 
 
 ## Genotypes and Phenotypes
 
+Because an individual has two copies of each autosomal gene, it's important to distinguish the **genotype** (an organism's genetic makeup) and the **phenotype** (an organism's appearance). The two copies of a particular gene are called **alleles**. If the two alleles are identical, the individual is homozygous for that gene. If the alleles vary because of mutations, the individual is heterozygous for that gene. Males are hemizygous for genes on the X chromosome.
 
+A population can have a large number of alleles of a gene. For example, a signle gene that affects human eye color can have alleles that encode shades of blue, green, hazel, brown, etc. In the broad sense, a genotype is the entire set of alleles forming the genome of an individual. By contrast, a phenotype is a description of a whole organism, and is a result of the expression of the organism's genotype in its environment.
+
+The differences between genotypes and phenotypes are easier to see in the context of having one normal allele and one mutant allele on a gene. Most proteins are able to function even if only half their normal allele levels are present; inactivating one copy of most genes doesn't lead to a change in phenotype. Thus, two organisms with different genotypes can have the same pheotype. Only organisms with two mutant alleles will ahve a different phenotype. The phenotype of an animal can change over its lifetime, whereas the genotype remains constant (excluding mutations from cancer). 
+
+If a mutant phenotype is expressed only when both alleles of a gene are mutated, the phenotypic trait and the mutant allele are **recessive**. Recessive mutations usually result from a loss/deficiency of a protein. If a mutant phenotype results from the combination of one mutant and one normal allele, the phenotypic trait and the mutant allele are **dominant**. In general, dominant mutations are rarer than recessive ones. Some mutations are dominant because 50% of the gene product is not enough for a normal phenotype. Other dominant mutations lead to the production of an abnormal protein by the mutant gene, or to expression of the wild-type gene product at a bad time.
+
+Genes and proteins are resilient to small changes, so not every sequence change in a gene is debilitating. Most mutations are simply allelic polymorphisms that are silent; They don't have any effect on the phenotype. Some are not silent, but are still benign (e.g. eye color). Only rare mutations cause disturbance in development, cell function, and behvior. Some mutations however are pathogenic and can lead to disease.
+
+## Mutations
+
+Although DNA replication is generally carried out with high accuracy, spontaneous errors called **mutations** do occur. Mutations can result from a whole host of different problems: damage to the purine and pyrimidine bases in DNA, mistakes during the DNA replication process, recombinations that occur during meiosis, etc. It is these mutations that give rise to genetic changes, and by extension evolution as a whole.
 
 # Conclusion
 

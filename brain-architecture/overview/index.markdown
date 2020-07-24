@@ -346,6 +346,19 @@ Genes and proteins are resilient to small changes, so not every sequence change 
 
 Although DNA replication is generally carried out with high accuracy, spontaneous errors called **mutations** do occur. Mutations can result from a whole host of different problems: damage to the purine and pyrimidine bases in DNA, mistakes during the DNA replication process, recombinations that occur during meiosis, etc. It is these mutations that give rise to genetic changes, and by extension evolution as a whole.
 
+The rate of spontaneously ocurring mutations is low but measurable. Spontaneous mutations make a significant contribution to genetic disease. Mutations can be caused in great volume due to exposure to chemical mutagens or ionizing radiation. Chemical mutagens tend to induce **point mutations**, involving changes to a single DNA base pair or the deletion of a few base pairs. Radiations tend to induce large insertions, deletions, or translocations. Both spontaneous and induced mutations can lead to changes in the structure of the protein encoded by the gene, or to a partial decrease of the gene expression.
+
+Functional changes in a single base pair within a coding region can be of three kinds:
+1. A **missense mutation**, where the point mutation results in one amino acid in a protein being subtituted for another
+2. A **nonsense mutation**, where a triplit of nucleotides within the coding region is replaced by a stop triplet resulting in a truncated protein product
+3. A **frame-shift mutation**, in which small insertions or deletions of nucleotides change the reading frame, leading to the production of an abnormal protein
+
+Large-scale mutations involve changes in chromosome structure that can affect the function of genes. Such mutations include the rearrangement of genes, or deletion/duplication of genes in a chromosome.
+
+Although most single-gene traits are recessive, rearrangements that lead to deletion or duplication of multiple genes often have dominant effects. For example, Down syndrome. Individuals with three copies of chromosome 21 have Down syndrome due to the increased expression of multiple genes; no single gene when present in three copies can have such broad cognitive and physical manifestations as Down syndrome.
+
+## Genes and Evolution
+
 # Conclusion
 
 # Citations

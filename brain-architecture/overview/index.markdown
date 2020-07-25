@@ -290,11 +290,9 @@ We will see in later chapters that the chemical synapses are functionally, and b
 
 All behaviors are shaped by the interplay between **genes** and the **environment**. The most stereotypical behaviors of simple animals are molded by the enivonment. The highly evolved behviors of humans are determined by the innate properties specified in their genes.
 
-Genes do not control behanvior directly, but the RNAs and proteins encoded by genes act at different times and at many levels to affect the brain greatly. Genes specify the developmental programs that assemble the brain, and are essential to making the properties of neurons and synapses that allow for neural circuits to function. Genes that have been stably inherited over generations create the machinery that allows new experiences to change the brain during learning.
-
 In this chapter, we'll learn how genes contribute to behavior. We're going to dive pretty deep into the cellular biology. It's not a section crucial to understanding how the brain works, but it will give you an understanding of how a brain is built from cellular blueprints.
 
-Recent progress has revealed the genetic basis of some developmental and psychiatric disorders.
+Genes do not control behanvior directly, but the RNAs and proteins encoded by genes act at different times and at many levels to affect the brain greatly. Genes specify the developmental programs that assemble the brain, and are essential to making the properties of neurons and synapses that allow for neural circuits to function. Genes that have been stably inherited over generations create the machinery that allows new experiences to change the brain during learning.
 
 ## Genes: Heritability of Behavior
 
@@ -357,7 +355,19 @@ Large-scale mutations involve changes in chromosome structure that can affect th
 
 Although most single-gene traits are recessive, rearrangements that lead to deletion or duplication of multiple genes often have dominant effects. For example, Down syndrome. Individuals with three copies of chromosome 21 have Down syndrome due to the increased expression of multiple genes; no single gene when present in three copies can have such broad cognitive and physical manifestations as Down syndrome.
 
-## Genes and Evolution
+## Evolution
+
+In the year 2000, you may have seen this on the news that we successfully sequenced the human genome. Indeed, the complete nucleotide sequence of the human genome has been nearly fully decoded. But the human genome isn't all we've decoded; the complete nucleotide sequences of many animal genomes have also been decoded. Comparisons between these genomes revealed a surprising conclusion: The unique human species did not result from the invention of new unique human genes.
+
+Humans and chimpanzees are profoundly different in appearance, behavior, biology, etc., yet they share 99% of their protein-coding genes. Less than 1% of genes are specific to humans. Moreover, most of the approximately 25,000 genes in humans are also present in other simple mammals like mice. In fact, over half of all human genes are found in invertebrates like worms and flies. The conclusion from this discovery is that ancient genes that humans share with other animals are used in new ways to produce novel human properties, like our intelligence.
+
+Because of this persistance of similar genes throughout evolution, insights from studies of one animal can often be applied to other animals with related genes, allowing us to learn about humans without having to do human gene testing. For example a gene from a mouse that encodes an amino acid sequence similar to a human gene has a similar function to the **orthologous** human gene. About 50% of human genes have functions that have been inferred from orthologous genes in other organisms. A set of genes shared by humans and flies encodes proteins for our most important functions: intermediary metabolism, protein synthesis, DNA/RNA synthesis, cell division, and more.
+
+The evolution from single-celled organism to multi-cellular animals was accompanied by an expansion of genes concerned with **intercellular communication** and **gene regulation**. The genomes of all multicellular animals, from worms to humans, typically encode thousands of transmembrane receptors, many more than are found in unicellular organisms. These transmembrane receptors are used in cell-to-cell communication in signaling between neurons and as sensors of environemental stimuli. 
+
+The genome of a multi-cellular animal also encodes at least 1,000 different DNA-binding proteins that regulate the expression of other genes. Many of the trans-membrane receptors and DNA-binding proteins in humans are related to othrologous genes in other organisms. By outlining the shared genetic heritage of the animals, we can infer that the basic molecular pathways for neuronal development, neurotransmission, electrical excitability, and gene expression have been present since our common ancestors of worms and flies. Even further, studies of animal and human genes have demonstrated that the most important genes in the human brain are those that are most conserved throughout evolution.
+
+Differences between mammalian genes and their invertebrate counterparts most often result from gene dublication in mammals or subtle changes in gene expression and function. Very rarely is at actually the creation of entirely new genes.
 
 # Conclusion
 

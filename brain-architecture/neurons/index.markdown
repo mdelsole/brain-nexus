@@ -51,4 +51,24 @@ Unlike the continuity of the cell body and dendrites, there is a sharp functiona
 
 ## Cell Shape
 
-The cytoskeleton determines the shape of a cell, and is responsible for the asymmetric distribution of organelles within the cytoplasm.
+The cytoskeleton determines the shape of a cell, and is responsible for the asymmetric distribution of organelles within the cytoplasm. It has 3 structures within it: microtubules, neurofilaments, and microfilaments.
+
+Microtubles form long scaffolds that extend from one end of the neuron to the other. They develop and maintain cell shape. Think of them like support beams. A single microtubule is about 0.1 mm. They are constructed of tubulin subunits, arranged horizontally along the microtubule. Tubulin subunits bind to neighboring subunits. The negative end of the tubulin units are oriented to the center of the cell, while the positive end is toward the dendrites and axon.
+
+Microtubules undergo rapid cycles of polymerization and depolymerization in dividng cells, but in mature dendrites and eaxons they are much more stable. In Alzheimer's disease and other degenerative disorders, tau proteins are modific and abnormally polymerized, forming lesions.
+
+## Protein Transportation
+
+In neurons, most proteins are made in the cell body from mRNAs. Because axons and synaptic terminals at the ends of them often lie great distances from the cell body, there needs to be mechanisms for transporting function to these remote regions.
+
+The axon terminal, the site most important for neuron signaling, is very distant from the cell body. In motor neurons for example, the distance can be up to 10,000 times the cell-body diameter. Passive diffusion is way too slow to deliver the molecules needed. They must be **actively transported** to the end of the axon.
+
+There are two speeds of **axoplasmic flow**. The first is **fast axonal transport**, which transports membraneous organelles (workers like the mitochondira). It transports these organelles both toward the terminal and back toward the cell body. The backwards part is especially impotant in nerve regeneration and axon growth. The other speed is **slow axonal transport**, which facilitates movement of organelles in all secretory cells.
+
+## Glial Cells
+
+Let us recall glial cells from the overview section of this guide. Like neurons, there are many different types of glia. Broadly, they can be divided into two major classes: **microglia** and **macroglia**. Microglia are immune system cells designed to present antigens during injury and infenction. Macroglia are the important ones; about 80% of all cells in the human brain are macroglia.
+
+There are three main types of macroglia: **oligodendrocytes**, **Schwann cells**, and **astrocytes**. The names are...difficult to remember. Of the 80% macroglia cells in the human brain, around 50% are Oligodendrocytes, and 50% are Astrocytes. Schwann cells are used by sensory receptor neurons across the body.
+
+The main job of oligodendrocytes and Schwann cells is to provide the insulating material called myelin that allows rapid conduction of electrical signals along the axon. Both types of glia prouduce myelin only for *segments* of axons. Axons are *not* continuously wrapped in myeling. Surprisingly, this features facilitates action potentials. More on that in later chapters though. Schwann cells produce one myelin sheath for one segment of one axon. Oligodendrocytes however produce sheathes for segments of up to 30 axons.

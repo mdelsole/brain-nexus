@@ -10,6 +10,24 @@ order: 40
 tags: []
 ---
 
+What do you think of when think about "memory"? For most people, they think about **episodic memory**; memory of specific events. You remember things like your 10th birthday and the time you broke your arm. Although this type of memory is the most noticeable, it's actually just one of many different types of memory.
+
+A big division in memory we can make, at least mechanics-wise, is between **weight-based** and **activation-based** forms of memory. Weight-based memory is a result of *synaptic plasticity*, and is generally long lasting (from hours up to years). Activation-based memory is a result of *ongoing neural activity*. It's much more transient and fleeting, but also more flexible. 
+
+Weight-based memory exists at every modifiable synapse in the brain. Because of this, it can manifest in innumerable ways. In this chapter, we'll focus on many of these ways.
+
+You've probably heard of the **hippocampus**. This region of the brain plays a critical role in **episodic memory**. What is it that makes the hippocampus so good at episodic memory? See, a major strength of our cortex is also a major problem. The cortex is all about organizing knowledge to have *overlap*, so that we can recognize when things are similar. The problem is that similar memories will interfere with each other; they'll share connections and it will be impossible to isolate the memories from each other. 
+
+The hippocampus solves this with **highly sparse** patterns of neural activity; relatively few neurons are active at a time. This allows similar memories to have distinct, **non-overlapping** neural representations. The biggest enemy of memory is interference, and having distinct neural patterns dramatically reduces it.
+
+The brain must have come to a crossroads when evolving: These distributed, overlapping representations of the neocortex are really useful for general learning, but they produce catastrophic interference when they try to encode new knowledge too fast. On the other hand, it is this rapid one-shot encoding that is required for episodic memory. The solution evolution came up with was to leverage **two** specialized complementary learning systems: The **hippocampus** for rapid encoding of new **episodic memories**, and the **neocortex** for slow acquisition of rich webs of **semantic knowledge**. The hippocampus would need non-overalapping encoding and rapid learning rates, while the neocortex would need overlapping encoding and slower learning rates.
+
+Before we oversimplify it too much, we need to remember memory is a highly distributed phenomena. Billions of synapses throughout the brain are tweaked by any given experience. Learning new memories of specific information is possible even in people with significant hippocampal damage. 
+
+An essential aspect to remember is that memory retrieval depends critically on how the brain is probed. We’ve all had the experience of a flood of memories coming back as a result of visiting a childhood place; the myriad of cues available enable recall of memories that otherwise are not quite strong enough to rise to the surface. The memories encoded without the benefit of the hippocampus are weaker and more vague, but they do exist.
+
+In addition to being highly distributed, memory in the brain is also highly interactive. Information that is initially encoded in one part of the brain can influence other parts of the brain, if those memories are reactivated and these other brain areas get the chance to learn them. The classic example of this is that episodic memories initially encoded in the hippocampus can be integrated into the surrounding neocortical areas through repeated retrieval of those memories. This is a big chunk of what goes on while you sleep. Furthermore, influences of the prefrontal cortex can significantly influence the encoding and retrieval of memory. Memory in the brain is a highly dynamic, far from the static “hard drive” metaphor from computers.
+
 # Major Types of Memory
 
 Two neural forms of memory: Activation and Synaptic Changes

@@ -28,6 +28,36 @@ An essential aspect to remember is that memory retrieval depends critically on h
 
 In addition to being highly distributed, memory in the brain is also highly interactive. Information that is initially encoded in one part of the brain can influence other parts of the brain, if those memories are reactivated and these other brain areas get the chance to learn them. The classic example of this is that episodic memories initially encoded in the hippocampus can be integrated into the surrounding neocortical areas through repeated retrieval of those memories. This is a big chunk of what goes on while you sleep. Furthermore, influences of the prefrontal cortex can significantly influence the encoding and retrieval of memory. Memory in the brain is a highly dynamic, far from the static “hard drive” metaphor from computers.
 
+# Episodic Memory
+
+The reason most people think of episodic memory when thinking of memory is because it's such a big part of our conscious lives. Everyone with a functioning hippocampus has this remarkable “tape recorder” constantly encoding everything that happens during their lives. We don’t have to use lots of effort to recall what happened 20 minutes or a few hours ago, it's just automatically there. 
+
+Most people end up forgetting the vast majority of the daily events of our lives. In general, we retain only the particularly noticeable or meaningful events. However, a small amount of people have exceptional memory, called **hyperthymesia**. It is *not* the hippocampus itself that differentiates these people, but rather the **obsessive rehearsal and retrieval** of episodic memories. People with hyperthymesia have areas of their **basal ganglia** enlarged (a feature which is associated with OCD). We’ll see in the executive chapter that the basal ganglia participate not only in motor control and reinforcement learning, but also the reinforcement of **updating** and **maintenance** of active memory. 
+
+In normal human brains, the hippocampus has the raw ability to encode and remember every moment of our lives in great clarity. But, most people just don’t bother to rehearse these memories to the point where they can all be reliably retrieved. When you encounter a situation that you give extreme attention to, you'll find yourself playing it over and over in your head after the event has ended. This is your brain recording the event, making sure the memory is strong so it can't be lost.
+
+## Principles of the Hippocampus
+
+Why is the hippocampus necessary? And what makes it so good at episodic memory? 
+
+To answer the first question, we look at the failure of a “generic” cortical neural network model. It can not exhibit any kind of useful episodic memory ability. 
+
+This failure was first documented using a generic backpropagation network trained on the AB-AC paired associate list learning task. This task involves learning an initial list of arbitrary word pairs, called the AB list. For example:
+    * locomotive - dishtowel
+    * window - reason
+    * bicycle - tree
+People are tested on their ability to recall the B associate for each A item. Training on the AB list ends when they achieve perfect recall. Then, they start learning the AC list, which involves new associates for the previous A items:
+    * locomotive - cloud
+    * window - book
+    * bicycle - couch 
+After a few iterations of learning this AC list, people are tested on their ability to recall the original AB items. The results show that there is a significant amount of **interference** on the AB list as a result of learning the AC items, due to the considerable overlap between the two lists. 
+
+In people, even after several iterations through the AC items, we can still recall about 50% of the AB list. In contrast, the network model exhibits **catastrophic interference**; performance on the AB list went to **0%** immediately. 
+
+Ressearchers may have jumped ship a bit too quickly, because they concluded that this invalidated all neural network models of human cognition, since obviously people have much better episodic memory abilities. Fortunately this kind of whole-sale abandonment of neural networks is unjustified. Indeed, there are certain **network parameters** that reduce the levels of interference. The problem is, changing these parameters makes the general cortical network not work as well. This is where the hippocampus comes in: The hippocampal system is an **additional** neural network with its parameters different than the cortex.
+
+The most important parameter manipulation required is to **increase** the level of **inhibition** so that fewer neurons are active. This greatly **reduces the overlap** between the internal representation of the AB and AC list items, thus allowing the system to learn AC without overwriting the prior AB memories. The hippocampal system exploits this inhibition trick to an extreme degree, allowing it to make distinct, non-overlapping memory engrams.
+
 # Major Types of Memory
 
 Two neural forms of memory: Activation and Synaptic Changes

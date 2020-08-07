@@ -58,6 +58,37 @@ Ressearchers may have jumped ship a bit too quickly, because they concluded that
 
 The most important parameter manipulation required is to **increase** the level of **inhibition** so that fewer neurons are active. This greatly **reduces the overlap** between the internal representation of the AB and AC list items, thus allowing the system to learn AC without overwriting the prior AB memories. The hippocampal system exploits this inhibition trick to an extreme degree, allowing it to make distinct, non-overlapping memory engrams.
 
+## Pattern Separation
+
+The hippocampus is specifically optimized to rapidly record episodic memories using **highly sparse** representations (few neurons active at a time). The idea is this minimizes overlap and thus interference. This principle is called **pattern separation**. 
+
+### Hippocampus Anatomy
+
+The anatomy of the hippocampus and the areas that feed into it is shown below. The hippocampus is one of two **summits** on top of the hierarchy of cortical areas (from the bottom sensory input areas like V1 to the top semantic areas like IT). The other summit is the prefrontal cortex, explored in the executive chapter. 
+
+Indeed, the input to the hippocampus neural netowrk is proccessed semantic knowledge from IT (ventral stream) and the parietal cortex (dorsal stream). Thus, it possesses a critical feature for episodic memory: access to a **high-level summary** of everything important going on at the moment. The ventral streams feeds into the **perirhinal** cortex (PRC), while the dorsal stream feeds into the **parahippocampal** area (PHC). These two areas then feed into the **entorhinal** cortex (EC), which serves as the input to the hippocampus itself. 
+
+The major hippocampal areas include the **dentate gyrus** (DG) and the areas of **cornu ammonis** (CA) **CA3** and **CA1**. CA2 turns out to be the same as CA3, so we lump it in. All of these strange names have to do with the shapes of these areas, including the term “hippocampus” itself, which refers to its seahorse shape.
+
+The basic episodic memory encoding story goes like this:
+* The high-level summary of everything in the brain is activated in EC, which then drives the DG and CA3 areas via the **perforant pathway**. The end result of this is a highly sparse, **distinct** pattern of neural firing in **CA3**, which represents the main **“engram”** in the hippocampus. 
+* The EC also drives activity in CA1, which is in charge of being able to **re-activate** this same EC pattern all by itself.
+* These patterns of activity then drive **synaptic plasticity** (learning) in all the interconnected synapses, most importantly in the synaptic connections among CA3 neurons in the CA3 recurrent pathway, as well as the connections between CA3 and CA1 (the Schaffer collateral pathway). 
+* These plastic changes effectively **“glue together”** the different neurons in the CA3 engram, and associate them with the CA1 invertible pattern, so that subsequent retrieval of the CA3 engram can then activate the CA1, then EC, and back out to the cortex. 
+
+Thus, the primary function of the hippocampus is to **bind together** all the separate elements of an episode, and then be able to retrieve this conjunctive memory and reinstate it out into the cortex during recall. This is how a memory comes to you; it floods back from CA3 to CA1 to EC to cortex, reactivating something approximating the original brain pattern at the time the memory was encoded. The memory is stored in CA3, and CA1 neurons act as "pointers" from the hippocampal neurons to the cortical neurons that *actually* make up the memory. Technically, hippocampal neurons have no meaning to "you".
+
+The system is a lot to take in. A quick symmary before moving on:
+* The semantic summary of what's currently going on converges into EC
+* EC drives DG and CA3 to form a distinct set of neurons dedicated to this memory's engram
+* EC also drives CA1 at the same time, forming the connections that will be needed trace this memory engram to its corresponding cortical neurons 
+
+EC driving activity causes synaptic plasticity (since this is still a neural network). This binds together the CA3 neurons, forming the engram, via the CA3 recurrent pathway. It also binds the CA1 neurons to the respective CA3 neurons, as well as to the respective EC neurons, forming the path from CA3 to CA1 to EC for memory recall. If there could ever be considered a "memory bank" of the brain, CA3 is it.
+
+The synaptic changes all the way through the cortical pathways into and out of the hippocampus “greases” the retrieval process. Indeed, if a memory pattern is reactivated frequently, then these cortical connections can be strong enough to drive reactivation of the full memory, without the benefit of the hippocampus at all. We discuss this **consolidation** process in detail soon. Finally, the retrieval process can be enhanced by **controlled retrieval** of memory using top-down strategies using the **prefrontal cortex**. I still need to write stuff on controlled retrieval here, but it depends on a combination of activation and weight based memory analogous to some features we will explore in executive Chapter.
+
+[insert picture]
+
 # Major Types of Memory
 
 Two neural forms of memory: Activation and Synaptic Changes

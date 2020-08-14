@@ -43,13 +43,13 @@ Why is the hippocampus necessary? And what makes it so good at episodic memory?
 To answer the first question, we look at the failure of a “generic” cortical neural network model. It can not exhibit any kind of useful episodic memory ability. 
 
 This failure was first documented using a generic backpropagation network trained on the AB-AC paired associate list learning task. This task involves learning an initial list of arbitrary word pairs, called the AB list. For example:
-    * locomotive - dishtowel
-    * window - reason
-    * bicycle - tree
+* locomotive - dishtowel
+* window - reason
+* bicycle - tree
 People are tested on their ability to recall the B associate for each A item. Training on the AB list ends when they achieve perfect recall. Then, they start learning the AC list, which involves new associates for the previous A items:
-    * locomotive - cloud
-    * window - book
-    * bicycle - couch 
+* locomotive - cloud
+* window - book
+* bicycle - couch 
 After a few iterations of learning this AC list, people are tested on their ability to recall the original AB items. The results show that there is a significant amount of **interference** on the AB list as a result of learning the AC items, due to the considerable overlap between the two lists. 
 
 In people, even after several iterations through the AC items, we can still recall about 50% of the AB list. In contrast, the network model exhibits **catastrophic interference**; performance on the AB list went to **0%** immediately. 
@@ -78,6 +78,8 @@ The basic episodic memory encoding story goes like this:
 
 Thus, the primary function of the hippocampus is to **bind together** all the separate elements of an episode, and then be able to retrieve this conjunctive memory and reinstate it out into the cortex during recall. This is how a memory comes to you; it floods back from CA3 to CA1 to EC to cortex, reactivating something approximating the original brain pattern at the time the memory was encoded. The memory is stored in CA3, and CA1 neurons act as "pointers" from the hippocampal neurons to the cortical neurons that *actually* make up the memory. Technically, hippocampal neurons have no meaning to "you".
 
+[insert picture]
+
 The system is a lot to take in. A quick symmary before moving on:
 * The semantic summary of what's currently going on converges into EC
 * EC drives DG and CA3 to form a distinct set of neurons dedicated to this memory's engram
@@ -87,7 +89,21 @@ EC driving activity causes synaptic plasticity (since this is still a neural net
 
 The synaptic changes all the way through the cortical pathways into and out of the hippocampus “greases” the retrieval process. Indeed, if a memory pattern is reactivated frequently, then these cortical connections can be strong enough to drive reactivation of the full memory, without the benefit of the hippocampus at all. We discuss this **consolidation** process in detail soon. Finally, the retrieval process can be enhanced by **controlled retrieval** of memory using top-down strategies using the **prefrontal cortex**. I still need to write stuff on controlled retrieval here, but it depends on a combination of activation and weight based memory analogous to some features we will explore in executive Chapter.
 
-[insert picture]
+## Hippocampal Neurons: Sparseness, Pattern Separation
+
+It is clear that CA3 and CA1 neurons fire much less often than those in the cortex (entorhinal cortex and subiculum). This is what we mean by **sparseness** in the hippocampal representation: for any given episode, only a relatively few neurons are firing. Furthermore, each neuron only fires under a very specific circumstance. 
+
+We first noticed this firing behavior in rats. Yes, rats have a "hippocampus", but its not like our hippocampus at all; the firing of neurons in rats tends to be identifiable as spatial locations. The rat hippocampus is home to **place cells** that map out where the rat is according to the canvas made up of **grid cells**. This however is not generally true of primate hippocampus, as ours are much more random.
+
+This sparseness results from **high levels of GABA inhibition**. It keeps many neurons below threshold, as well as requires neurons to receive a high level of excitatory input to overcome this inhibition. It must get *really* activated to overcome the inihibition. 
+
+The direct benefit of this sparseness is that the engrams for different episodes won't overlap almost ever, just from basic probabilities. For example, the probability of a neuron being active for a given episode in DG is typically 1%. Then, the probability for any two random episodes is that value squared, which is .01%. In comparison, if the probability is higher like 25% (typical of cortex), then there is a 6.25% chance of overlap for two episodes.
+
+The connection between activity levels and pattern separation can also be observed within the hippocampus itself, by comparing the firing properties of DG vs. CA3 neurons. DG neurons have the sparsest activity levels (1%), even compared to the less sparse CA3 (2-5% activity level). The DG exhibits more pattern separation than the CA3.
+
+Another factor that contributes to effective pattern separation is the broad and diffuse connectivity from EC to DG and CA3, via the **perforant pathway**. This allows many different features in EC to be randomly combined in DG and CA3, enabling them to be sensitive to combinations or conjunctions of inputs. Because of the high inhibitory threshold associated with sparse activations, this means a given neuron in these areas must receive significant excitation from multiple of these diffuse input sources. In other words, these neurons have **conjunctive representations**; all features must be present for the neuron to become active.
+
+Pattern separation is important for enabling the hippocampus to rapidly encode novel episodes with a minimum of interference on prior learning, because the patterns of neurons involved overlap relatively little.
 
 # Major Types of Memory
 

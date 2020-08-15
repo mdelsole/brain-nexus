@@ -105,6 +105,18 @@ Another factor that contributes to effective pattern separation is the broad and
 
 Pattern separation is important for enabling the hippocampus to rapidly encode novel episodes with a minimum of interference on prior learning, because the patterns of neurons involved overlap relatively little.
 
+## Pattern Completion: Cued Recall
+
+While pattern separation is important for encoding new memories, encoding would be useless unless these memories can be **recalled**. This recall process is also known as **pattern completion**: a partial retrieval cue triggers the completion of the full original pattern associated with the memory. For example, if I cue you with the question: “did you go to summer camp as a kid?” you can pattern complete from this to memories of summer camp. 
+
+The amazing thing about human memory is that it is **content addressable memory**; any sufficiently specific subset of information can serve as a retrieval cue, enabling recovery of previously-encoded episodic memories. In contrast, memory in a computer is accessed by a memory address or a variable pointer, which has no relationship to the actual content stored in that memory. This is why a separate neural network is required, and we can't just store a list of the neurons that become active as the memory; we need learning to enable this robust pattern completion ability.
+
+In the hippocampus, pattern completion is facilitated by the **recurrent connections** among **CA3** neurons, which glues them together during encoding such that a subset of CA3 neurons can trigger recall of the remainder. In addition, the synaptic changes during encoding in the perforant pathway make it more likely that the original DG and CA3 neurons will become reactivated by a partial retrieval cue. 
+
+Interestingly, there is a direct tension or tradeoff between pattern separation and pattern completion. The detailed parameters of the hippocampal anatomy seem to optimize this tradeoff. Pattern separation makes it more likely that the system will treat the retrieval cue like a *novel* stimulus, and thus encode a new distinct engram pattern in CA3, instead triggering the old one. Likewise, if the system is too good at pattern completion, it will reactivate *old* memories instead of encoding new pattern separated ones. 
+
+Although the anatomical parameters to the network do help to find a good balance between these different forces of completion and separation, it is also likely that the hippocampus benefits from strategic influences from other brain areas like the prefrontal cortex, to emphasize either completion or separation depending on whether the current demands require recall or encoding. We will explore this later in the executive function chapter.
+
 # Major Types of Memory
 
 Two neural forms of memory: Activation and Synaptic Changes

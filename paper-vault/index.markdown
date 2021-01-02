@@ -10,7 +10,13 @@ categories: []
 tags: []
 ---
 
-A collection of deep dives on papers.
+When you arrive at the higher-level functions of the brain, the information you'll be able to find from textbooks wears thin. To find the information you're looking for, you have to dive into the world of research papers.
+
+There are thousands of reasearch papers out there that contain valuable information. Unfortunately, they are written in non-layman's terms, and require a great deal of effort to read thoroughly. 
+
+While one can certainly read these papers, it is a completely different matter to be able to efficiently extract information from them. The time investment for the inexperienced is considerably more than that of a textbook chapter, which has already extracted the information of many papers for you. 
+
+I read many papers in my quest to design AGI, and I've found the best way for me to get the most out of them is to take detailed notes on their content. Consider this section a **paper summarizer**; I will take the useful information from papers, mixed in with my notes and ideas, and post them here.
 
 
 
